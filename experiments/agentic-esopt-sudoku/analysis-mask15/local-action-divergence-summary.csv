@@ -1,0 +1,4 @@
+comparison,pairs,identical,diverged,first_step,median_first_difference
+candidate-vs-candidate,96,17,79,12,3
+center-vs-candidate,64,12,52,6,4.0
+updated-vs-center,8,4,4,1,12.0

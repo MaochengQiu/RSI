@@ -1,0 +1,312 @@
+{
+  "rows": [
+    {
+      "scene": {
+        "task": "pick_and_place_simple",
+        "id": "json_2.1.1/valid_seen/pick_and_place_simple-Book-None-SideTable-329/trial_T20190908_050633_745514/game.tw-pddl",
+        "sha256": "e9ced02262678598e81db73781e8979ab9297e77ea5a424b8fd580fa0452e784"
+      },
+      "original": {
+        "initial_observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a bed 1, a diningtable 1, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a garbagecan 1, a sidetable 2, and a sidetable 1.\n\nYour task is to: put some book on sidetable.",
+        "won": true,
+        "stop": "environment_done",
+        "rounds": 11,
+        "steps": 10,
+        "actions": [
+          "go to drawer 1",
+          "open drawer 1",
+          "go to drawer 2",
+          "open drawer 2",
+          "go to drawer 3",
+          "go to drawer 4",
+          "go to diningtable 1",
+          "take book 3 from diningtable 1",
+          "go to sidetable 1",
+          "move book 3 to sidetable 1"
+        ],
+        "thoughts": [
+          {
+            "round": 1,
+            "text": "think: To solve the task, I need to find and take a book, then put it on sidetable. I should start by checking places where books are likely to be, such as drawers (1-4), diningtable (1), sidetable (1-2), and garbagecan (1). I will"
+          }
+        ],
+        "trace": "01-baseline.jsonl",
+        "elapsed_seconds": 11.185154228999636,
+        "peak_allocated_mib": 2947.283203125,
+        "peak_reserved_mib": 3072.0
+      },
+      "perturbed": {
+        "initial_observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a bed 1, a diningtable 1, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a garbagecan 1, a sidetable 2, and a sidetable 1.\n\nYour task is to: put some book on sidetable.",
+        "won": true,
+        "stop": "environment_done",
+        "rounds": 11,
+        "steps": 10,
+        "actions": [
+          "go to drawer 1",
+          "open drawer 1",
+          "go to drawer 2",
+          "open drawer 2",
+          "go to drawer 3",
+          "go to drawer 4",
+          "go to diningtable 1",
+          "take book 3 from diningtable 1",
+          "go to sidetable 1",
+          "move book 3 to sidetable 1"
+        ],
+        "thoughts": [
+          {
+            "round": 1,
+            "text": "think: To solve the task, I need to find and take a book, then put it on sidetable. I should start by checking places where books are likely to be, such as drawers (1-4), diningtable (1), sidetable (1-2), and garbagecan (1). I will"
+          }
+        ],
+        "trace": "01-perturbed.jsonl",
+        "elapsed_seconds": 10.997294500999942,
+        "peak_allocated_mib": 2967.93798828125,
+        "peak_reserved_mib": 3638.0
+      },
+      "first_different_action": null
+    },
+    {
+      "scene": {
+        "task": "pick_clean_then_place_in_recep",
+        "id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-ButterKnife-None-CounterTop-8/trial_T20190909_105559_983897/game.tw-pddl",
+        "sha256": "6d8c41796613a39222ebdfd5e7781787b860f67ab0b3ac1eade00a862a06b9fa"
+      },
+      "original": {
+        "initial_observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 18, a cabinet 17, a cabinet 16, a cabinet 15, a cabinet 14, a cabinet 13, a cabinet 12, a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 4, a countertop 3, a countertop 2, a countertop 1, a drawer 7, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\n\nYour task is to: put a clean butterknife in countertop.",
+        "won": true,
+        "stop": "environment_done",
+        "rounds": 9,
+        "steps": 7,
+        "actions": [
+          "go to countertop 1",
+          "go to countertop 2",
+          "take butterknife 1 from countertop 2",
+          "go to sinkbasin 1",
+          "clean butterknife 1 with sinkbasin 1",
+          "go to countertop 1",
+          "move butterknife 1 to countertop 1"
+        ],
+        "thoughts": [
+          {
+            "round": 1,
+            "text": "think: To solve the task, I need to find and take a butterknife, then clean it with sinkbasin, then put it in countertop."
+          },
+          {
+            "round": 5,
+            "text": "think: Now I have the butterknife 1. Next, I need to go to sinkbasin 1 and clean it."
+          }
+        ],
+        "trace": "02-baseline.jsonl",
+        "elapsed_seconds": 13.433881360000214,
+        "peak_allocated_mib": 3065.65966796875,
+        "peak_reserved_mib": 3156.0
+      },
+      "perturbed": {
+        "initial_observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 18, a cabinet 17, a cabinet 16, a cabinet 15, a cabinet 14, a cabinet 13, a cabinet 12, a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 4, a countertop 3, a countertop 2, a countertop 1, a drawer 7, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\n\nYour task is to: put a clean butterknife in countertop.",
+        "won": true,
+        "stop": "environment_done",
+        "rounds": 9,
+        "steps": 7,
+        "actions": [
+          "go to countertop 1",
+          "go to countertop 2",
+          "take butterknife 1 from countertop 2",
+          "go to sinkbasin 1",
+          "clean butterknife 1 with sinkbasin 1",
+          "go to countertop 1",
+          "move butterknife 1 to countertop 1"
+        ],
+        "thoughts": [
+          {
+            "round": 1,
+            "text": "think: To solve the task, I need to find and take a butterknife, then clean it with sinkbasin, then put it in countertop."
+          },
+          {
+            "round": 5,
+            "text": "think: Now I have the butterknife 1. Next, I need to go to sinkbasin 1 and clean it."
+          }
+        ],
+        "trace": "02-perturbed.jsonl",
+        "elapsed_seconds": 13.633870059999936,
+        "peak_allocated_mib": 3065.23388671875,
+        "peak_reserved_mib": 3638.0
+      },
+      "first_different_action": null
+    },
+    {
+      "scene": {
+        "task": "pick_cool_then_place_in_recep",
+        "id": "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Apple-None-CounterTop-14/trial_T20190909_044933_815840/game.tw-pddl",
+        "sha256": "bb44abba8c05ba976daaccfcd811ca543bfb51e1f79b7446bb3d9c02113ab037"
+      },
+      "original": {
+        "initial_observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 2, a countertop 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\n\nYour task is to: cool some apple and put it in countertop.",
+        "won": false,
+        "stop": "round_limit",
+        "rounds": 50,
+        "steps": 49,
+        "actions": [
+          "go to countertop 1",
+          "go to countertop 2",
+          "go to fridge 1",
+          "open fridge 1",
+          "go to countertop 1",
+          "take apple 1 from countertop 1",
+          "go to countertop 1",
+          "take apple 1 from countertop 1",
+          "go to countertop 1",
+          "take apple 1 from countertop 1",
+          "go to countertop 2",
+          "take apple 1 from countertop 2",
+          "go to countertop 1",
+          "take apple 1 from countertop 1",
+          "go to countertop 2",
+          "take apple 1 from countertop 2",
+          "go to countertop 1",
+          "take apple 1 from countertop 1",
+          "go to countertop 1",
+          "take apple 1 from countertop 1",
+          "go to countertop 2",
+          "take apple 1 from countertop 2",
+          "go to cabinet 1",
+          "take apple 1 from cabinet 1",
+          "go to cabinet 2",
+          "take apple 1 from cabinet 2",
+          "go to cabinet 3",
+          "open cabinet 3",
+          "go to cabinet 4",
+          "open cabinet 4",
+          "go to cabinet 5",
+          "open cabinet 5",
+          "take apple 1 from cabinet 5",
+          "go to cabinet 6",
+          "take apple 1 from cabinet 6",
+          "go to cabinet 7",
+          "take apple 1 from cabinet 7",
+          "go to cabinet 8",
+          "open cabinet 8",
+          "take apple 1 from cabinet 8",
+          "go to fridge 1",
+          "take apple 1 from fridge 1",
+          "go to countertop 1",
+          "take apple 1 from countertop 1",
+          "go to countertop 2",
+          "take apple 1 from countertop 2",
+          "go to fridge 1",
+          "take apple 1 from fridge 1",
+          "go to cabinet 1"
+        ],
+        "thoughts": [
+          {
+            "round": 1,
+            "text": "think: To solve the task, I need to find and take an apple, then cool it with fridge, then put it in countertop."
+          }
+        ],
+        "trace": "03-baseline.jsonl",
+        "elapsed_seconds": 68.23942920299987,
+        "peak_allocated_mib": 3332.80810546875,
+        "peak_reserved_mib": 3638.0
+      },
+      "perturbed": {
+        "initial_observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 2, a countertop 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\n\nYour task is to: cool some apple and put it in countertop.",
+        "won": false,
+        "stop": "round_limit",
+        "rounds": 50,
+        "steps": 49,
+        "actions": [
+          "go to countertop 1",
+          "go to countertop 2",
+          "go to fridge 1",
+          "open fridge 1",
+          "go to countertop 1",
+          "take apple 1 from countertop 1",
+          "go to countertop 1",
+          "take apple 1 from countertop 1",
+          "go to countertop 1",
+          "take apple 1 from countertop 1",
+          "go to countertop 2",
+          "take apple 1 from countertop 2",
+          "go to countertop 1",
+          "take apple 1 from countertop 1",
+          "go to countertop 2",
+          "take apple 1 from countertop 2",
+          "go to countertop 1",
+          "take apple 1 from countertop 1",
+          "go to countertop 1",
+          "take apple 1 from countertop 1",
+          "go to countertop 2",
+          "take apple 1 from countertop 2",
+          "go to cabinet 1",
+          "take apple 1 from cabinet 1",
+          "go to cabinet 2",
+          "take apple 1 from cabinet 2",
+          "go to cabinet 3",
+          "open cabinet 3",
+          "go to cabinet 4",
+          "open cabinet 4",
+          "go to cabinet 5",
+          "open cabinet 5",
+          "take apple 1 from cabinet 5",
+          "go to cabinet 6",
+          "take apple 1 from cabinet 6",
+          "go to cabinet 7",
+          "take apple 1 from cabinet 7",
+          "go to cabinet 8",
+          "open cabinet 8",
+          "take apple 1 from cabinet 8",
+          "go to fridge 1",
+          "take apple 1 from fridge 1",
+          "go to countertop 1",
+          "take apple 1 from countertop 1",
+          "go to countertop 2",
+          "take apple 1 from countertop 2",
+          "go to fridge 1",
+          "take apple 1 from fridge 1",
+          "go to cabinet 1"
+        ],
+        "thoughts": [
+          {
+            "round": 1,
+            "text": "think: To solve the task, I need to find and take an apple, then cool it with fridge, then put it in countertop."
+          }
+        ],
+        "trace": "03-perturbed.jsonl",
+        "elapsed_seconds": 68.35215420899976,
+        "peak_allocated_mib": 3333.14404296875,
+        "peak_reserved_mib": 3638.0
+      },
+      "first_different_action": null
+    }
+  ],
+  "restored": {
+    "initial_observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a bed 1, a diningtable 1, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a garbagecan 1, a sidetable 2, and a sidetable 1.\n\nYour task is to: put some book on sidetable.",
+    "won": true,
+    "stop": "environment_done",
+    "rounds": 11,
+    "steps": 10,
+    "actions": [
+      "go to drawer 1",
+      "open drawer 1",
+      "go to drawer 2",
+      "open drawer 2",
+      "go to drawer 3",
+      "go to drawer 4",
+      "go to diningtable 1",
+      "take book 3 from diningtable 1",
+      "go to sidetable 1",
+      "move book 3 to sidetable 1"
+    ],
+    "thoughts": [
+      {
+        "round": 1,
+        "text": "think: To solve the task, I need to find and take a book, then put it on sidetable. I should start by checking places where books are likely to be, such as drawers (1-4), diningtable (1), sidetable (1-2), and garbagecan (1). I will"
+      }
+    ],
+    "trace": "01-restored.jsonl",
+    "elapsed_seconds": 10.985135160000027,
+    "peak_allocated_mib": 2947.66796875,
+    "peak_reserved_mib": 3638.0
+  },
+  "restored_baseline_matches": true
+}

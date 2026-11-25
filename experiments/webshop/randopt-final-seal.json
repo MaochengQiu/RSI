@@ -1,0 +1,1227 @@
+{
+  "tasks": [
+    {
+      "goal_id": 102,
+      "goal": {
+        "asin": "B09Q7LVG2Y",
+        "category": "beauty",
+        "query": "hair masks",
+        "name": "Professional Strength Hair Growth Supplement Tablets 180 Tablets & Tricomax Deep Conditioning Hair Mask - Advanced Hair Health",
+        "product_category": "Beauty & Personal Care › Hair Care › Hair Loss Products › Hair Regrowth Treatments",
+        "instruction_text": "deep conditioning hair growth hair mask with supplement tablets 180 nos, and price lower than 140.00 dollars",
+        "attributes": [
+          "hair growth"
+        ],
+        "price_upper": 140.0,
+        "goal_options": [
+          "180 tablets + elixir"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 110,
+      "goal": {
+        "asin": "B07CQB2FZK",
+        "category": "electronics",
+        "query": "satellite television",
+        "name": "200ft Black TRI-Shield Indoor Outdoor RG-6 Coaxial Cable Nickel-Plated Brass Connector 75 Ohm (Satellite TV, Broadband Internet, Ham Radio, OTA HD Antenna Coax) Assembled in USA PHAT SATELLITE",
+        "product_category": "Electronics › Accessories & Supplies › Audio & Video Accessories › Cables & Interconnects › Video Cables › F-Pin-Coaxial Tip",
+        "instruction_text": "i would like a 3 ft long copper coaxial cable, and price lower than 40.00 dollars",
+        "attributes": [
+          "coaxial cable"
+        ],
+        "price_upper": 40.0,
+        "goal_options": [
+          "copper, weather boot - black",
+          "3ft"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 68,
+      "goal": {
+        "asin": "B07HWLYSP6",
+        "category": "fashion",
+        "query": "men's shirts",
+        "name": "Patriotic Stand For The Flag Kneel For The Cross Shirt",
+        "product_category": "Clothing, Shoes & Jewelry › Novelty & More › Clothing › Novelty › Women › Tops & Tees › T-Shirts",
+        "instruction_text": "i would get to get a women's large cranberry t-shirt made from cotton heather , and price lower than 50.00 dollars",
+        "attributes": [
+          "heathers cotton",
+          "cotton heather"
+        ],
+        "price_upper": 50.0,
+        "goal_options": [
+          "cranberry",
+          "women",
+          "large"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 55,
+      "goal": {
+        "asin": "B09PVJ5GD4",
+        "category": "fashion",
+        "query": "women's pumps",
+        "name": "VOMIRA Women's Platform Pumps Square Toe Patent Chunky High Heel Ankle Buckle Strap Mary Janes Bride Dress Wedding Shoes",
+        "product_category": "Clothing, Shoes & Jewelry › Women › Shoes › Pumps",
+        "instruction_text": "my high heel size was 6.5, and price lower than 60.00 dollars",
+        "attributes": [
+          "high heel"
+        ],
+        "price_upper": 60.0,
+        "goal_options": [
+          "6.5"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 24,
+      "goal": {
+        "asin": "B06XSGZKC7",
+        "category": "grocery",
+        "query": "non-dairy milks",
+        "name": "Organic Cacao Powder, 8 Ounces - Certified, Non-GMO, Kosher, Raw, Unsweetened, Sirtfood, Bulk",
+        "product_category": "Grocery & Gourmet Food › Pantry Staples › Cooking & Baking › Baking Chocolates, Carob & Cocoa › Cocoa",
+        "instruction_text": "i'm looking for certifies organic groceries the flavor was cacao bits, and price lower than 40.00 dollars",
+        "attributes": [
+          "certified organic"
+        ],
+        "price_upper": 40.0,
+        "goal_options": [
+          "cacao nibs"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 82,
+      "goal": {
+        "asin": "B09MRVVWQ3",
+        "category": "grocery",
+        "query": "food & beverage gifts",
+        "name": "Ultimate TEA LOVERS gifts for women, men | variety loose tea, Teapot w/ infuser, Tea sampler gift set box GET WELL SOON, care package gift basket for birthday, Grandma, Mom, Thinking of you, Cheer up",
+        "product_category": "Grocery & Gourmet Food › Food & Beverage Gifts › Coffee & Tea Gifts",
+        "instruction_text": "i want to buy a tea-themed gift basket, and price lower than 70.00 dollars",
+        "attributes": [
+          "gift basket"
+        ],
+        "price_upper": 70.0,
+        "goal_options": [],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 83,
+      "goal": {
+        "asin": "B09PFKP5DP",
+        "category": "beauty",
+        "query": "skin care maternity",
+        "name": "Cenglings Women Slingback Sandals for Party Peep Toe Chunky Heel Wedge Sandals Ankle Strap Vintage Bridal Platform Sandal",
+        "product_category": "Beauty & Personal Care › Tools & Accessories › Skin Care Tools › Facial Rollers",
+        "instruction_text": "i need brown eco friendly cenglings women slingback sandals in size 7, and price lower than 60.00 dollars",
+        "attributes": [
+          "eco friendly"
+        ],
+        "price_upper": 60.0,
+        "goal_options": [
+          "brown",
+          "7"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 54,
+      "goal": {
+        "asin": "B08QM8KGPH",
+        "category": "electronics",
+        "query": "tripods & monopods",
+        "name": "K&F Concept S210 78 inch Camera Tripod and Aluminum Alloy Quick Release Plate with 1/4 Inch Screw",
+        "product_category": "Electronics › Camera & Photo › Tripods & Monopods › Complete Tripods",
+        "instruction_text": "get me a quick release camera tripod made out of aluminum alloy, and price lower than 120.00 dollars",
+        "attributes": [
+          "quick release",
+          "aluminum alloy"
+        ],
+        "price_upper": 120.0,
+        "goal_options": [],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 75,
+      "goal": {
+        "asin": "B09CGHW1CP",
+        "category": "garden",
+        "query": "window coverings",
+        "name": "Boolegon Blackout Roller Window Shade,Thermal Insulated Farbic Window Blind for Home,Bedroom,Office,with Square Metal Valance,Easy to Install,White,94\" W x 80\" H",
+        "product_category": "Home & Kitchen › Home Décor Products › Window Treatments › Blinds & Shades › Roller Shades",
+        "instruction_text": "i am looking for 96\"w x 72\"h roller shades of gray color and it is east to install, and price lower than 300.00 dollars",
+        "attributes": [
+          "easy install"
+        ],
+        "price_upper": 300.0,
+        "goal_options": [
+          "gray",
+          "96\"w x 72\"h"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 45,
+      "goal": {
+        "asin": "B09Q89DYTJ",
+        "category": "fashion",
+        "query": "women's oxfords",
+        "name": "Auimank Gifts for Women Men Woman's Summer Heel Pointed Fish Mouth Sandals Hemp Lace Up Wedge Shoes Sandal Slippers Soft",
+        "product_category": "Clothing, Shoes & Jewelry › Women › Shoes › Sandals › Heeled Sandals",
+        "instruction_text": "i'm looking for some black high heeled sandals for my mom. she wears size 5.5, and price lower than 60.00 dollars",
+        "attributes": [
+          "high heel"
+        ],
+        "price_upper": 60.0,
+        "goal_options": [
+          "black",
+          "5.5"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 100,
+      "goal": {
+        "asin": "B08PV5Y6J3",
+        "category": "beauty",
+        "query": "refillable containers",
+        "name": "15 Pack 4 oz Clear Glass Jars with Lids, Round Empty Containers for Scrubs, Lotions, Cosmetic, Ointments and Butters, Travel Storage Jar with White Inner Liners £¬Black Lids, lables and Spatulas",
+        "product_category": "Beauty & Personal Care › Tools & Accessories › Refillable Containers › Jars",
+        "instruction_text": "i need a set of 15 bpa free and eco-friendly jars, and price lower than 30.00 dollars",
+        "attributes": [
+          "bpa free",
+          "eco friendly"
+        ],
+        "price_upper": 30.0,
+        "goal_options": [
+          "clear-15pcs"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 48,
+      "goal": {
+        "asin": "B072K5197P",
+        "category": "garden",
+        "query": "decorative pillows",
+        "name": "Ambesonne Western Throw Pillow Cushion Cover, Country Theme Hand Drawn Illustration of American Wild West Desert with Cowboys, Decorative Square Accent Pillow Case, 16\" X 16\", Umber Cream",
+        "product_category": "Home & Kitchen › Bedding › Decorative Pillows, Inserts & Covers › Throw Pillow Covers",
+        "instruction_text": "i need machine washable pillow covers. it should be in turquoise blue, and price lower than 50.00 dollars",
+        "attributes": [
+          "machine washable"
+        ],
+        "price_upper": 50.0,
+        "goal_options": [
+          "turquoise blue"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 104,
+      "goal": {
+        "asin": "B09JMVK45R",
+        "category": "electronics",
+        "query": "pc",
+        "name": "ASUS ROG Strix G15CE Gaming & Entertainment Desktop PC (Intel i7-11700KF 8-Core, 32GB RAM, 4TB SATA SSD, GeForce RTX 3070, WiFi, Bluetooth, 6xUSB 3.1, 2xHDMI, Win 10 Pro)",
+        "product_category": "Electronics › Computers & Accessories › Computers & Tablets › Desktops › Minis",
+        "instruction_text": "i would like an intel core desktop that has 64 gb of ram with 4 tb storage",
+        "attributes": [
+          "intel core"
+        ],
+        "price_upper": 1000000,
+        "goal_options": [
+          "64gb ram|4tb ssd|win10h"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 78,
+      "goal": {
+        "asin": "B09293PTPM",
+        "category": "garden",
+        "query": "living room sets",
+        "name": "Sectional Sofa Ottoman Set 6 Seater Modular Corner Sectional Couches Living Room Furniture Sets Reversible L Shape Couch Set, Deep Gray",
+        "product_category": "Home & Kitchen › Furniture › Living Room Furniture › Living Room Sets",
+        "instruction_text": "i'm looking for a ottoman 6 seater sofa",
+        "attributes": [
+          "living room"
+        ],
+        "price_upper": 1000000,
+        "goal_options": [
+          "deep grey",
+          "love seat couch"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 62,
+      "goal": {
+        "asin": "B07MWML5S1",
+        "category": "fashion",
+        "query": "men's jeans",
+        "name": "Wrangler mens 13mwz Cowboy Cut Original Fit Jean",
+        "product_category": "Clothing, Shoes & Jewelry › Men › Clothing › Jeans",
+        "instruction_text": "i want to buy a pair of machine washable jeans with a 33 inch waist and a 30 inch length. they should come in a \"granite\" color, and price lower than 90.00 dollars",
+        "attributes": [
+          "machine wash"
+        ],
+        "price_upper": 90.0,
+        "goal_options": [
+          "granite",
+          "33w x 30l"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 23,
+      "goal": {
+        "asin": "B085T5HZJV",
+        "category": "garden",
+        "query": "tv stands",
+        "name": "BELLEZE Modern 50 Inch Farmhouse Wood TV Stand & Media Entertainment Center Console Table for TVs up to 55 Inch with Open Storage Shelves & Cabinets - Kenton (Espresso)",
+        "product_category": "Home & Kitchen › Furniture › Living Room Furniture › TV & Media Furniture › Television Stands & Entertainment Centers",
+        "instruction_text": "i want a tv stand made of wood and has a storage space. it should be suitable for my living room, and price lower than 200.00 dollars",
+        "attributes": [
+          "storage space",
+          "living room"
+        ],
+        "price_upper": 200.0,
+        "goal_options": [
+          "wood"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 108,
+      "goal": {
+        "asin": "B009PQB0KE",
+        "category": "beauty",
+        "query": "hair cutting tools",
+        "name": "Feather Plier Hair Razor with Folding Handle",
+        "product_category": "Beauty & Personal Care › Shave & Hair Removal › Men's › Razors & Blades › Cartridges & Refills",
+        "instruction_text": "i'm looking for hair removal of men's it was personal care in beauty, and price lower than 170.00 dollars",
+        "attributes": [
+          "stainless steel",
+          "hair cutting"
+        ],
+        "price_upper": 170.0,
+        "goal_options": [],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 76,
+      "goal": {
+        "asin": "B08B1MCFKL",
+        "category": "fashion",
+        "query": "men's athletic shoes",
+        "name": "Salewa Ultra Train 3 - Men's",
+        "product_category": "Clothing, Shoes & Jewelry › Men › Shoes › Athletic › Running › Trail Running",
+        "instruction_text": "i am looking for dark denim color ethylene vinyl ultra train of size 10, 3rd generation for  men, and price lower than 210.00 dollars",
+        "attributes": [
+          "ethylene vinyl"
+        ],
+        "price_upper": 210.0,
+        "goal_options": [
+          "dark denim | red orange",
+          "10"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 60,
+      "goal": {
+        "asin": "B00O6DHOCY",
+        "category": "grocery",
+        "query": "breakfast foods",
+        "name": "Steve's PaleoGoods, PaleoKrunch Cereal Original, 7.5oz (Pack of 6) - Gluten Free Granola Organic, Low Carb Cereal, Grain Free Low Calorie Keto Snack",
+        "product_category": "Grocery & Gourmet Food › Breakfast Foods › Cereals › Granola",
+        "instruction_text": "i want a 7.5 oz box of gluten free paleokrunch cereal, and price lower than 60.00 dollars",
+        "attributes": [
+          "gluten free"
+        ],
+        "price_upper": 60.0,
+        "goal_options": [
+          "7.5 ounce (pack of 3)"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 8,
+      "goal": {
+        "asin": "B09M64JZCL",
+        "category": "electronics",
+        "query": "screen protectors",
+        "name": "HASDON [10 Pack] Cases Compatible with Apple Watch Series 7 41mm with Tempered Glass Screen Protector, Ultra-Thin Hard PC Overall Protective Cover Shockproof Bumper for iWatch Series 7 Accessories",
+        "product_category": "Cell Phones & Accessories › Accessories › Smartwatch Accessories › Smartwatch Screen Protectors",
+        "instruction_text": "i am looking for a overall cover with tempered glass screen protector for my apple watch, preferably in rose gold color, and price lower than 50.00 dollars",
+        "attributes": [
+          "compatible apple",
+          "tempered glass"
+        ],
+        "price_upper": 50.0,
+        "goal_options": [
+          "rose gold | silver | midnight blue |  clear"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 58,
+      "goal": {
+        "asin": "B082LJ5GKD",
+        "category": "garden",
+        "query": "area rugs",
+        "name": "SAFAVIEH Tulum Collection TUL229B Moroccan Boho Distressed Non-Shedding Living Room Bedroom Dining Home Office Area Rug, 8' x 10', Ivory / Black",
+        "product_category": "Home & Kitchen › Home Décor Products › Rugs, Pads & Protectors › Runners",
+        "instruction_text": "i would like a 2 foot by 9 foot long navy floor runner for my dining room, and price lower than 170.00 dollars",
+        "attributes": [
+          "dining room"
+        ],
+        "price_upper": 170.0,
+        "goal_options": [
+          "navy  |  ivory",
+          "2 ft x 9 ft"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 106,
+      "goal": {
+        "asin": "B09M7KQX11",
+        "category": "electronics",
+        "query": "streaming media players",
+        "name": "New Formuler Z10 Pro Max Android 10 Dual Band 5G Gigabit LAN 4GB Ram 32GB ROM 4K | Bonus 4K HDMI Cable | Bonus Formuler GTV - BT1 Remote | Bonus Magnetic Phone Car Mount",
+        "product_category": "Electronics › Wearable Technology › Rings",
+        "instruction_text": "i want a new formuler z10 pro max android 10 dual band ring, and price lower than 210.00 dollars",
+        "attributes": [
+          "dual band"
+        ],
+        "price_upper": 210.0,
+        "goal_options": [],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 26,
+      "goal": {
+        "asin": "B09KZNFD8T",
+        "category": "electronics",
+        "query": "iphone accessories",
+        "name": "R-fun AirPods 3 Case Cover, Silicone Protective Accessories Skin with Keychain Compatible with Apple AirPod 3rd Generation 2021 for Women Men Girls Boys,Front LED Visible-Dark Grey",
+        "product_category": "Electronics › Accessories & Supplies › Audio & Video Accessories › Headphone Accessories › Cases",
+        "instruction_text": "i need a  grey protective airpods 3  case cover which is compatible with apple, and price lower than 40.00 dollars",
+        "attributes": [
+          "compatible apple",
+          "case cover"
+        ],
+        "price_upper": 40.0,
+        "goal_options": [
+          "d-grey"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 28,
+      "goal": {
+        "asin": "B00AARRS9Y",
+        "category": "electronics",
+        "query": "home theater systems",
+        "name": "Jabra Speak 510 UC Wireless Bluetooth Speaker for Softphone and Mobile Phone – Easy Setup, Portable Speaker for Holding Meetings Anywhere with Outstanding Sound Quality",
+        "product_category": "Electronics › Portable Audio & Video › Portable Speakers & Docks › Portable Bluetooth Speakers",
+        "instruction_text": "i want speak 510 wireless bluetooth portable speakers, which is uc optimized and comes with a carrying case, and price lower than 120.00 dollars",
+        "attributes": [
+          "carrying case",
+          "wireless bluetooth"
+        ],
+        "price_upper": 120.0,
+        "goal_options": [
+          "uc optimized (standard)",
+          "speak 510"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 69,
+      "goal": {
+        "asin": "B07B7BV15N",
+        "category": "grocery",
+        "query": "dairy, cheese & eggs",
+        "name": "Rule Breakers Vegan Gluten Free Snacks | Birthday Cake Blondie Cookies | Plant-Based, Dairy, Nut, Soy, Allergen Free, Kosher | Soft-Baked, Safe for School Snacks for Kids and Adults (Pack of 24)",
+        "product_category": "Grocery & Gourmet Food › Breads & Bakery › Cookies › Peanut-Butter",
+        "instruction_text": "i am looking for a individual wrapped birthday cakes and chocolate chip blondies that come in a 12 pack, and price lower than 80.00 dollars",
+        "attributes": [
+          "individually wrapped"
+        ],
+        "price_upper": 80.0,
+        "goal_options": [
+          "birthday cake & chocolate chip blondie"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 99,
+      "goal": {
+        "asin": "B07GYJSMW3",
+        "category": "fashion",
+        "query": "men's boots",
+        "name": "Cole Haan Men's Zerogrand Hiker II",
+        "product_category": "Clothing, Shoes & Jewelry › Men › Shoes › Outdoor › Hiking & Trekking › Hiking Boots",
+        "instruction_text": "searching to purchase a men's zerogrand hiker boot that is water resistant with rubber outsole in a size 10 1/2, either dark coffee or black in coloring.  cole haan, and price lower than 320.00 dollars",
+        "attributes": [
+          "water resistant",
+          "rubber outsole"
+        ],
+        "price_upper": 320.0,
+        "goal_options": [
+          "dark coffee | black",
+          "10.5"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 103,
+      "goal": {
+        "asin": "B01FUI25OU",
+        "category": "grocery",
+        "query": "beverages",
+        "name": "fairlife YUP! Low Fat, Ultra-Filtered Milk, Very Strawberry Flavor, All Natural Flavors (Packaging May Vary), 14 Fl Oz, 12 count",
+        "product_category": "Grocery & Gourmet Food › Dairy, Cheese & Eggs › Milk & Cream › Flavored Milk",
+        "instruction_text": "i'm looking for this brand : fairlife yup! low fat, ultra-filtered milk, rich chocolate flavor, all natural flavors), 14 fl oz, (pack of 4), and price lower than 140.00 dollars",
+        "attributes": [
+          "low fat"
+        ],
+        "price_upper": 140.0,
+        "goal_options": [
+          "rich chocolate",
+          "14 fl oz (pack of 4)"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 66,
+      "goal": {
+        "asin": "B09DWZH78K",
+        "category": "fashion",
+        "query": "women's slippers",
+        "name": "Vionic Beach Malibu Casual Women’s Slip On Sneakers-Sustainable Shoes That Include Three-Zone Comfort with Orthotic Insole Arch Support, Machine Wash Safe- Sizes 5-11",
+        "product_category": "Clothing, Shoes & Jewelry › Women › Shoes › Fashion Sneakers",
+        "instruction_text": "i need sun canvas women's slip on sneakers in size 12 with arch support, and price lower than 100.00 dollars",
+        "attributes": [
+          "arch support"
+        ],
+        "price_upper": 100.0,
+        "goal_options": [
+          "sun canvas",
+          "12"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 15,
+      "goal": {
+        "asin": "B08MMQH84M",
+        "category": "fashion",
+        "query": "men's slippers",
+        "name": "Unisex Slide Sanda",
+        "product_category": "Clothing, Shoes & Jewelry › Men › Shoes › Sandals",
+        "instruction_text": "i'm looking for some non-slip black vinyls, and price lower than 70.00 dollars",
+        "attributes": [
+          "non slip",
+          "ethylene vinyl",
+          "vinyl acetate"
+        ],
+        "price_upper": 70.0,
+        "goal_options": [
+          "new black"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 17,
+      "goal": {
+        "asin": "B0943N574G",
+        "category": "beauty",
+        "query": "makeup sets",
+        "name": "WEILUSI Nail Art Rhinestones Round Beads Flatback Crystals Gems 8620Pcs Multi Shapes Glass Crystal Rhinestones for Nail Art Makeup Face Decor Crafts Supply (Green fire)",
+        "product_category": "Beauty & Personal Care › Foot, Hand & Nail Care › Nail Art & Polish › Nail Art Accessories › Rhinestones",
+        "instruction_text": "i would like some champagne rhinestones for my nail art, and price lower than 60.00 dollars",
+        "attributes": [
+          "nail art"
+        ],
+        "price_upper": 60.0,
+        "goal_options": [
+          "champagne"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 13,
+      "goal": {
+        "asin": "B09R1XFNKW",
+        "category": "fashion",
+        "query": "men's dress shirts",
+        "name": "JSPOYOU Mens Fashion Long Sleeve Dress Shirts Leopard Print Casual Button Down Hawaiian Shirt Spread Collar Slim Fit Tees Top",
+        "product_category": "Clothing, Shoes & Jewelry › Men › Clothing › Shirts › Casual Button-Down Shirts",
+        "instruction_text": "i need a black leopard print polyester-cotton shirt with long sleeves, and price lower than 40.00 dollars",
+        "attributes": [
+          "long sleeve",
+          "polyester cotton"
+        ],
+        "price_upper": 40.0,
+        "goal_options": [
+          "black"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 16,
+      "goal": {
+        "asin": "B095KSSZ48",
+        "category": "beauty",
+        "query": "bags & cases",
+        "name": "Shampoo and Conditioner Bar Set with Travel Tins Plant Based, Cruelty Free, Locally made in USA, Plastic Free, Dye Free (Tea Tree Lemongrass Shampoo & Conditioner Combo Pack)",
+        "product_category": "Beauty & Personal Care › Hair Care › Shampoo & Conditioner › Shampoo & Conditioner Sets",
+        "instruction_text": "i am looking for an eco friendly cruelty free orange ylang shampoo and conditioner combo pack, and price lower than 40.00 dollars",
+        "attributes": [
+          "eco friendly",
+          "cruelty free"
+        ],
+        "price_upper": 40.0,
+        "goal_options": [
+          "orange ylang shampoo & conditioner combo pack"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 10,
+      "goal": {
+        "asin": "B09HL9DTF5",
+        "category": "fashion",
+        "query": "women's sandals",
+        "name": "Jessica Simpson Women's Sassia Woven Strap High Heel Sandal Heeled",
+        "product_category": "Clothing, Shoes & Jewelry › Women › Shoes › Sandals › Heeled Sandals",
+        "instruction_text": "can you help me find a pair of women's high heel sandal with a rubber sole? i want bubble pink one and size 11, and price lower than 190.00 dollars",
+        "attributes": [
+          "high heel",
+          "rubber sole"
+        ],
+        "price_upper": 190.0,
+        "goal_options": [
+          "bubble pink",
+          "11"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 7,
+      "goal": {
+        "asin": "B09NJ39F9R",
+        "category": "fashion",
+        "query": "women's work & safety footwear",
+        "name": "Steel Toe Anti-Smashing Puncture Resistant Safety Leather Boots for Industrial Construction Lightweight and Comfortable Work Boots Fashion Slip Resistant Breathable Sneakers",
+        "product_category": "Clothing, Shoes & Jewelry › Men › Uniforms, Work & Safety › Shoes › Work & Utility › Shoes",
+        "instruction_text": "i want a non slip steel toe black men's shoe size :6.5, and price lower than 90.00 dollars",
+        "attributes": [
+          "non slip",
+          "steel toe"
+        ],
+        "price_upper": 90.0,
+        "goal_options": [],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 43,
+      "goal": {
+        "asin": "B0842NKZ44",
+        "category": "garden",
+        "query": "home office furniture sets",
+        "name": "Meet Perfect Office Chair, Mid Back Mesh Lumbar Support Home Office Computer Desk Chair Swivel Task Chair, Ergonomic Executive Chair on Rolling Wheels Height Adjustable for Men Women Back Pain-Blue",
+        "product_category": "Home & Kitchen › Furniture › Home Office Furniture › Home Office Chairs › Home Office Desk Chairs",
+        "instruction_text": "i need a heavy duty, height adjustable office chair in pink color, and price lower than 80.00 dollars",
+        "attributes": [
+          "height adjustable",
+          "heavy duty"
+        ],
+        "price_upper": 80.0,
+        "goal_options": [
+          "pink"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 33,
+      "goal": {
+        "asin": "B092Z8TBXZ",
+        "category": "beauty",
+        "query": "makeup brushes & tools",
+        "name": "8 Mini Make-up Brush Set Wood Handle Morandi Portable Soft Hair Beauty Tool, Make Up Foundation Eyebrow Eyeliner Blush Concealer Brushes, Toiletry Kit Wool Make Up Brush Set (with bag)",
+        "product_category": "Beauty & Personal Care › Tools & Accessories › Makeup Brushes & Tools › Brush Sets",
+        "instruction_text": "i'm looking for a high quality make up brush set in ivory rice color, and price lower than 20.00 dollars",
+        "attributes": [
+          "high quality"
+        ],
+        "price_upper": 20.0,
+        "goal_options": [
+          "ivory rice"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 11,
+      "goal": {
+        "asin": "B07PYPGQ8B",
+        "category": "beauty",
+        "query": "eyes makeup",
+        "name": "Eyelash Extensions 0.03 CC Curl 15mm Lash Extensions Supplies Individual Lashes Premium Silk Volume & Classic Lash Soft Matte Dark Professional Eyelashes Extension (0.03-CC-15mm)",
+        "product_category": "Beauty & Personal Care › Tools & Accessories › Makeup Brushes & Tools › Eye › False Eyelashes & Adhesives › False Lashes",
+        "instruction_text": "i'm trying to find high quality eyelash extensions that are 0.15 millimeters in diameter and 13-20 millimeters long, and price lower than 40.00 dollars",
+        "attributes": [
+          "high quality"
+        ],
+        "price_upper": 40.0,
+        "goal_options": [
+          "0.15-d-mix-13-20mm"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 59,
+      "goal": {
+        "asin": "B09CDN7QBP",
+        "category": "garden",
+        "query": "home office chairs",
+        "name": "Height Adjustable Armchair Accent Chair for Executive Bedroom,Velvet Desk Chair Mid-back Ergonomic Computer Chair Soft Comfortable Swivel Chair with Lumbar Pillow,Home Office Chair-Purple 60x60x80-90c",
+        "product_category": "Home & Kitchen › Furniture › Home Office Furniture › Home Office Chairs › Home Office Desk Chairs",
+        "instruction_text": "i'm looking for an easy to install pink chair for the living room that offers lumbar support and is height adjustable, and price lower than 430.00 dollars",
+        "attributes": [
+          "height adjustable",
+          "easy install",
+          "lumbar support",
+          "living room"
+        ],
+        "price_upper": 430.0,
+        "goal_options": [
+          "pink"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 71,
+      "goal": {
+        "asin": "B09NSL89H9",
+        "category": "beauty",
+        "query": "refillable containers",
+        "name": "200/300/500ML Home Hairstyling Hairdressing Ultra Fine Mist Continuous Sprayer Spray Bottle Watering Can Refillable Container(500ML,black&transparent)",
+        "product_category": "Beauty & Personal Care › Tools & Accessories › Bags & Cases",
+        "instruction_text": "i'm looking for a continuous fine mist spray bottle in the color black, and price lower than 30.00 dollars",
+        "attributes": [
+          "fine mist"
+        ],
+        "price_upper": 30.0,
+        "goal_options": [
+          "black"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 101,
+      "goal": {
+        "asin": "B09GK1QJFW",
+        "category": "electronics",
+        "query": "tripods & monopods",
+        "name": "Ultra Long Selfie Stick for GoPro Hero,Insta 360,OSMO Action Camera,Extendable at 3 Lengths 22\" 47.2\" 106\" Carbon Fiber Lightweight Pole Monopod (35 inch with Tripod)",
+        "product_category": "Electronics › Camera & Photo › Tripods & Monopods › Monopods",
+        "instruction_text": "ultra long carbon fiber pole monopod 106\" upgraded selfie stick, and price lower than 50.00 dollars",
+        "attributes": [
+          "carbon fiber"
+        ],
+        "price_upper": 50.0,
+        "goal_options": [
+          "106\" upgraded selfie stick"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 35,
+      "goal": {
+        "asin": "B091WP1BT5",
+        "category": "grocery",
+        "query": "beverages",
+        "name": "Mango Aseptic Purée 4.4 Lb | Create All-Natural Juices, Smoothies, Cocktails, Beers, Desserts, And So Much More | Natural, Vegan, Non-GMO, Gluten-Free, Kosher | Create your favorite drink……",
+        "product_category": "Grocery & Gourmet Food › Beverages › Bottled Beverages, Water & Drink Mixes › Juices › Fruit Juice",
+        "instruction_text": "i would like a peach juice that is non gmo and gluten free, and price lower than 60.00 dollars",
+        "attributes": [
+          "non gmo",
+          "gluten free"
+        ],
+        "price_upper": 60.0,
+        "goal_options": [],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 49,
+      "goal": {
+        "asin": "B09PDP2SKW",
+        "category": "beauty",
+        "query": "hair extensions, wigs & accessories",
+        "name": "JINHH Hair Extension Clip in Hair Extensions Human Hair Full Head Sets Afro Kinky Curly Clip Ins Bundles Natural Black (Size : 26 inch)",
+        "product_category": "Beauty & Personal Care › Hair Care › Hair Extensions, Wigs & Accessories › Hair Extensions",
+        "instruction_text": "i would like some 22 inch hair extensions made of natural hair, and price lower than 140.00 dollars",
+        "attributes": [
+          "hair extensions",
+          "natural hair"
+        ],
+        "price_upper": 140.0,
+        "goal_options": [
+          "22 inch"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 88,
+      "goal": {
+        "asin": "B07H9PXL88",
+        "category": "fashion",
+        "query": "men's loafers & slip-ons",
+        "name": "MARC JOSEPH NEW YORK Men's Grainy Leather Fort Hamilton Venetian Loafer",
+        "product_category": "Clothing, Shoes & Jewelry › Men › Shoes › Loafers & Slip-Ons",
+        "instruction_text": "i would like a size 11 brown suede loafer with a rubber sole, and price lower than 190.00 dollars",
+        "attributes": [
+          "rubber sole"
+        ],
+        "price_upper": 190.0,
+        "goal_options": [
+          "brown suede | black sole",
+          "11"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 38,
+      "goal": {
+        "asin": "B09QHR4TMP",
+        "category": "beauty",
+        "query": "children's fragrance",
+        "name": "Disney Cinderella Kids 3.4oz EDT Spray, 3.4oz Body Mist 2 Pc Gift Set",
+        "product_category": "Beauty & Personal Care › Fragrance › Women's › Sets",
+        "instruction_text": "i am looking for long lasting disney cinderella kids 3.4oz edt spray, and price lower than 50.00 dollars",
+        "attributes": [
+          "long lasting"
+        ],
+        "price_upper": 50.0,
+        "goal_options": [],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 36,
+      "goal": {
+        "asin": "B08JYGZZ8C",
+        "category": "fashion",
+        "query": "women's activewear",
+        "name": "Blooming Jelly Women's Quick-Dry Running Shorts Workout Sport Layer Active Shorts with Pockets 1.75\"",
+        "product_category": "Clothing, Shoes & Jewelry › Women › Clothing › Shorts",
+        "instruction_text": "i am looking for camo colored women's running shorts with an elastic waistband, and price lower than 50.00 dollars",
+        "attributes": [
+          "elastic waistband"
+        ],
+        "price_upper": 50.0,
+        "goal_options": [
+          "camo"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 63,
+      "goal": {
+        "asin": "B08QPRZ4HP",
+        "category": "grocery",
+        "query": "snack nuts & seeds",
+        "name": "All-In-One Mix (8 oz each)",
+        "product_category": "Grocery & Gourmet Food › Pantry Staples › Cooking & Baking › Nuts & Seeds › Mixed Nuts",
+        "instruction_text": "i am looking for a gluten free mixed nuts of all-in-one mix flavours, and price lower than 30.00 dollars",
+        "attributes": [
+          "gluten free"
+        ],
+        "price_upper": 30.0,
+        "goal_options": [
+          "all-in-one mix"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 0,
+      "goal": {
+        "asin": "B09SXRJYN6",
+        "category": "beauty",
+        "query": "eyes care",
+        "name": "FUNWICT Ice Roller for Face Eyes, Silicone Ice Roller Mold, Facial Beauty Ice Roller Skin Care for Face and Eyes Puffiness Relief (Medium, Blue)",
+        "product_category": "Beauty & Personal Care › Skin Care › Face › Sets & Kits",
+        "instruction_text": "i would like a black face kit with green tea, and price lower than 30.00 dollars",
+        "attributes": [
+          "green tea"
+        ],
+        "price_upper": 30.0,
+        "goal_options": [
+          "black"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 19,
+      "goal": {
+        "asin": "B00A3IFR5C",
+        "category": "grocery",
+        "query": "dried fruits & raisins",
+        "name": "Living Intentions Organic Superfood Cereal – Blueberry Blast – NonGMO – Gluten Free – Vegan Paleo – Kosher – 9 Ounce Unit",
+        "product_category": "Grocery & Gourmet Food › Breakfast Foods › Cereals › Cold Cereals",
+        "instruction_text": "i'm interested in some banana hemp cereal that is dairy - and gluten-free, and price lower than 40.00 dollars",
+        "attributes": [
+          "non dairy",
+          "gluten free"
+        ],
+        "price_upper": 40.0,
+        "goal_options": [
+          "banana hemp"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 91,
+      "goal": {
+        "asin": "B0924JK3Z6",
+        "category": "fashion",
+        "query": "women's sandals",
+        "name": "Vovotrade. Women's Flatform Open Toe Sandal Women's Wedge Sandals Platform Sandals Cork Elastic Strap Sandals",
+        "product_category": "Clothing, Shoes & Jewelry › Women › Shoes › Sandals › Flats",
+        "instruction_text": "i need some open toe women's sandals in size 10.5, and price lower than 140.00 dollars",
+        "attributes": [
+          "open toe"
+        ],
+        "price_upper": 140.0,
+        "goal_options": [
+          "10.5"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 84,
+      "goal": {
+        "asin": "B09MJXZ9PQ",
+        "category": "beauty",
+        "query": "salon & spa equipment",
+        "name": "Classic Styling Salon Chair Hair Hydraulic Barber Chair for Hair Salon with Wider Seat & Heavy Duty Hydraulic Pump, Beauty Salon Spa Shampoo Equipment (Color : Gold)",
+        "product_category": "Beauty & Personal Care › Salon & Spa Equipment › Professional Massage Equipment › Salon & Spa Chairs",
+        "instruction_text": "i'm looking for a classic styling salon chair, hydraulic barber chair with wider seat & heavy duty hydraulic pump, also it should have beauty salon spa shampoo equipment, choose the gold color, and price lower than 900.00 dollars",
+        "attributes": [
+          "heavy duty",
+          "easy clean",
+          "high quality",
+          "hair salon",
+          "beauty salon"
+        ],
+        "price_upper": 900.0,
+        "goal_options": [],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 95,
+      "goal": {
+        "asin": "B09PG5MJG1",
+        "category": "garden",
+        "query": "home office chairs",
+        "name": "Home Office Desk Chair Armless Office Chair Mid Back Mesh Chair Height Adjustable Small Computer Chair, Cheap Modern Task Office Chair No Armrest Rolling Swivel Chair with Wheels，Grey",
+        "product_category": "Home & Kitchen › Furniture › Home Office Furniture › Home Office Chairs › Home Office Desk Chairs",
+        "instruction_text": "i need to buy a height adjustable office chair with lumbar support. i want a grey one, and price lower than 70.00 dollars",
+        "attributes": [
+          "height adjustable",
+          "lumbar support"
+        ],
+        "price_upper": 70.0,
+        "goal_options": [
+          "grey"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 2,
+      "goal": {
+        "asin": "B01MT94PJW",
+        "category": "beauty",
+        "query": "deodorants & antiperspirants",
+        "name": "Roger & Gallet | Roll On Deodorant for Women | 48 Hour Anti Perspirant Deodorant | Bois D' Orange 1.6 Oz",
+        "product_category": "Beauty & Personal Care › Personal Care › Deodorants & Antiperspirants › Deodorant",
+        "instruction_text": "look for antiperspirant in the jean-marie farina scent. buy the travel size, and price lower than 30.00 dollars",
+        "attributes": [
+          "anti perspirant",
+          "travel size"
+        ],
+        "price_upper": 30.0,
+        "goal_options": [
+          "jean-marie farina"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 85,
+      "goal": {
+        "asin": "B09SG3LJLK",
+        "category": "garden",
+        "query": "bedframes",
+        "name": "Bed Frames, Loft Bed Twin Size Metal Bed Frame with L-Shaped Desk and Storage Shelves/Ladder and Slats, Space Saving Design Sturdy Platform Bed Frame, Easy Assembly Loft Beds for Bedroom Dormitory",
+        "product_category": "Home & Kitchen › Furniture › Bedroom Furniture › Beds, Frames & Bases › Bed Frames",
+        "instruction_text": "i'm looking for a twin size bed that soft beds for bedroom, and price lower than 400.00 dollars",
+        "attributes": [
+          "twin size"
+        ],
+        "price_upper": 400.0,
+        "goal_options": [],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 25,
+      "goal": {
+        "asin": "B07YLJPMC3",
+        "category": "beauty",
+        "query": "body makeup",
+        "name": "CeraVe Acne Foaming Cream Cleanser | Acne Treatment Face Wash with 4% Benzoyl Peroxide, Hyaluronic Acid, and Niacinamide | Cream to Foam Formula | 5 Oz",
+        "product_category": "Beauty & Personal Care › Skin Care › Face › Cleansers › Washes",
+        "instruction_text": "i am looking for fragrance free foaming cream cleanser, and price lower than 30.00 dollars",
+        "attributes": [
+          "fragrance free"
+        ],
+        "price_upper": 30.0,
+        "goal_options": [],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 57,
+      "goal": {
+        "asin": "B07VG8CYTX",
+        "category": "electronics",
+        "query": "mac",
+        "name": "iStorage datAshur PRO² 4 GB Secure Flash Drive - FIPS 140-2 Level 3 Certified - Password Protected, Dust and Water Resistant, Portable, Military Grade Hardware Encryption, USB 3.2 IS-FL-DP2-256-4",
+        "product_category": "Electronics › Computers & Accessories › Data Storage › USB Flash Drives",
+        "instruction_text": "i want a 64 gig data shur usb port drive, and price lower than 80.00 dollars",
+        "attributes": [
+          "usb port"
+        ],
+        "price_upper": 80.0,
+        "goal_options": [
+          "64gb",
+          "datashur"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 27,
+      "goal": {
+        "asin": "B081R2JC38",
+        "category": "garden",
+        "query": "hall trees",
+        "name": "Cloth Coat Rack Coat Rack Shoe Bench, Clothes Shoe Rack For Storage, Hall Tree Entryway Storage Shelf free standing or wall mounted (Color : Natural, Size : Without cushion)",
+        "product_category": "Home & Kitchen › Furniture › Entryway Furniture › Coat Racks",
+        "instruction_text": "i'm looking for wall mounted for furniture need to buy it, and price lower than 290.00 dollars",
+        "attributes": [
+          "wall mounted"
+        ],
+        "price_upper": 290.0,
+        "goal_options": [],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 79,
+      "goal": {
+        "asin": "B0897ZFHX2",
+        "category": "beauty",
+        "query": "makeup remover",
+        "name": "Rael Cica Spot Corrector Cream - Advanced Dark Spot Lightening Serum with Cica Extract and Willow Bark Extract, Clean Vegan Natural Skincare, All Skin Types (0.68oz, 20ml)",
+        "product_category": "Beauty & Personal Care › Skin Care › Face › Creams & Moisturizers › Face Moisturizers",
+        "instruction_text": "i'm looking for hyaluronic acid  for skin care moisturizers, and price lower than 50.00 dollars",
+        "attributes": [
+          "cruelty free",
+          "hyaluronic acid"
+        ],
+        "price_upper": 50.0,
+        "goal_options": [],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 77,
+      "goal": {
+        "asin": "B083XK3VQX",
+        "category": "grocery",
+        "query": "beverages",
+        "name": "Hawaiian Punch, Polar Blast– Powder Drink Mix - (12 boxes, 96 sticks) – Sugar Free & Delicious, Excellent source of Vitamin C, Makes 96 flavored water beverages",
+        "product_category": "Grocery & Gourmet Food › Beverages › Bottled Beverages, Water & Drink Mixes › Powdered Drink Mixes & Flavorings › Soft Drink Mixes",
+        "instruction_text": "i would like to buy a sugar free powder drink mix that is a nice source of vitamin, and price lower than 30.00 dollars",
+        "attributes": [
+          "sugar free",
+          "source vitamin"
+        ],
+        "price_upper": 30.0,
+        "goal_options": [],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 9,
+      "goal": {
+        "asin": "B08S7KZVFX",
+        "category": "grocery",
+        "query": "lighters & matches",
+        "name": "Monster Energy Ultra Gold, Sugar Free Energy Drink, 16 Ounce (Pack of 24)",
+        "product_category": "Grocery & Gourmet Food › Beverages › Bottled Beverages, Water & Drink Mixes › Energy Drinks",
+        "instruction_text": "i would like a 16 ounce ultra gold sugar free energy drink,, and price lower than 60.00 dollars",
+        "attributes": [
+          "sugar free"
+        ],
+        "price_upper": 60.0,
+        "goal_options": [
+          "ultra gold",
+          "16 ounce (pack of 24)"
+        ],
+        "weight": 1
+      }
+    },
+    {
+      "goal_id": 94,
+      "goal": {
+        "asin": "B09KG97T9N",
+        "category": "electronics",
+        "query": "lenses",
+        "name": "2 Pack Camera Lens Protector Compatible with iPhone 13 6.1 inch/13 Mini 5.4 inch, HD Plexiglass Camera Protector Not Easy to Break, Scratch Resistant, Easy Install, Blue",
+        "product_category": "Cell Phones & Accessories › Accessories › Maintenance, Upkeep & Repairs › Screen Protectors",
+        "instruction_text": "i am lookong for a colorful2 for screen protectors wihich is easy ti install, and price lower than 30.00 dollars",
+        "attributes": [
+          "easy install"
+        ],
+        "price_upper": 30.0,
+        "goal_options": [
+          "colorful2"
+        ],
+        "weight": 1
+      }
+    }
+  ],
+  "catalog_hashes": {
+    "attributes.json": "113727c16a71227ca2f8e31e084c41b4089ae19dd85b555a6eace186ffe233f2",
+    "index/_0.fdm": "3e013dc129149a1ae2b2b19023f9694229f12282ea92f1e02c4330254dc193fc",
+    "index/_0.fdt": "230835cea0a77213e37f61729c8988d3cbcb5f57a1f04a7a99e83b6587754e74",
+    "index/_0.fdx": "e366860776b78d442922c246907074a42006592a0674a00f9a7ab0707bcbff0f",
+    "index/_0.fnm": "d9079f29ca853e7300c2f6beeba3d738baa6185e3b9d66dd66892f8c9ce0f8a7",
+    "index/_0.nvd": "c79f2af760579d0cf13fb413ce355fabbcb4382d1d9e6f3e5cb8d8051a545130",
+    "index/_0.nvm": "43db7b2a116ac49034cafa4f4ed9aec37e4db00221a6b397b9548d5ed004e8a3",
+    "index/_0.si": "de3976dd66492aeed323f9ca041a3ef4e07a396f7dd7e713d22f8e5f4db9785a",
+    "index/_0.tvd": "9718eb9434b3ef55a52e51ca0aa5b440ac018404edbe0777ce1481b0d0067279",
+    "index/_0.tvm": "fc6f51b9bdb016be74b96714c95717ff4eb6b74b5e846ad95a94bbecd5665cb4",
+    "index/_0.tvx": "ca03f4e9371113040b17b4db2f3a35883626028753fed8a3f065dc4e2a42a363",
+    "index/_0_Lucene80_0.dvd": "b86001211f3dc33cc20cfd96b9e11002491b91a128a2c0bc1f61d680fb7e7e2f",
+    "index/_0_Lucene80_0.dvm": "6e9051ebcaed0380ef80e5015d7a621dba3641ad7688f75b251b80c60dfbd744",
+    "index/_0_Lucene84_0.doc": "8e458b2e9cc9fce536c7e9238862f4cd2dfe409e342662cfa19b188d0754218a",
+    "index/_0_Lucene84_0.pos": "fef26216ee25e69813c6c62c7aca4ce766cc0c043a257825b9b9821873d809b7",
+    "index/_0_Lucene84_0.tim": "91c5c23fbe911b0c61492bc1100604d7ae62c1cf0437dffcca25856c2ae59dfc",
+    "index/_0_Lucene84_0.tip": "9169e81e77fb29926b16ebba2d2da0b70301c17e3d9de7487947b1e2319d6a16",
+    "index/_0_Lucene84_0.tmd": "091dd49a3270d321ab6407646d56c5fd1c559cba095f9bb16eb2f65c3fcf592f",
+    "index/segments_1": "a50a5dab2c8807e9614c2cffa52307cfb0ba72798ebef9cdf1f4c93265f10dab",
+    "index/write.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "products.json": "de7b81c57b73f7fd922572b22db3ff2f0e4482f59ce04f520b046df81d7f476f"
+  },
+  "price_hash": "b30a31491bec89354a071819068aa4fe6dc3f282d25eac05c744f66530563ec6",
+  "human_sha256": "cf78667548a71786e1d9049c24b802e48e1084ad4bb021cae56ce1f6d96954a3",
+  "seed": 2026112105,
+  "catalog_source": "ce990ff products[20000:30000]",
+  "replay_ids": [
+    5,
+    6,
+    12,
+    14,
+    17,
+    18,
+    25,
+    43,
+    45,
+    46,
+    53,
+    54,
+    56,
+    72,
+    83,
+    84,
+    86,
+    87,
+    92,
+    105
+  ],
+  "archived_weight_hashes": {
+    "baseline": "200c612190183bf82bfe4bf7604020a2407ee603b8643ffd1e79f607fa59643c",
+    "2062827065": "3b54c39c97b383d1fd0a44616eb789caad912841f7e7f9eae44e0761fab940cd",
+    "1907254960": "9a9f240f78464297db621e6894e12138865c7c8439d8fa1e0bdcdd04acbb9c98",
+    "1576763381": "04e8573687ed9f04b8f0a3b23be508b4e945c7dfde123180af566d7dfeefb87d",
+    "1176687314": "6c83d902d118fd999d18105f9e24d5a9f5286dbf8e2d430c80971ea9d9d25d36",
+    "1727009898": "55622e351a42a640661728ef4b20ffe81a879f5d9e61e6a93b280307ca4a53a0",
+    "1700805366": "8ce175b7760aa7eb847e0d26d3fe4d0df4378615691d2254f6d72288dd000363",
+    "1717748365": "487ae51e95b1c330b5c13dd99b906980f9e1484d6688de6514547a1081cff98b",
+    "1803639008": "df2f74d130ae04d832222c0001b7d02ffad5d664cdda5a126195133bb226e6f5"
+  },
+  "archived_manifest_sha256": "3bb1d0788bc867c7927e3f928b85de2f54aa292aff75616ba3c00240501686cf"
+}

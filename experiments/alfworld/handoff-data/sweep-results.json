@@ -1,0 +1,1715 @@
+{
+  "candidates": [
+    {
+      "name": "seed-20261120-scale-0.01",
+      "seed": 20261120,
+      "scale": 0.01,
+      "reused": true,
+      "restored_weight_sha256": "200c612190183bf82bfe4bf7604020a2407ee603b8643ffd1e79f607fa59643c",
+      "weights": {
+        "sigma": 0.0002446250803768635,
+        "relative_frobenius_delta": 0.009994731284677982,
+        "weight_sha256": "7e62f16fc4b9a16c4a9bd1bfed6af337ca9d9a7d19bbd0a607eb23d060ef76ed",
+        "forward_difference": {
+          "layer_input": {
+            "max_abs": 0.0,
+            "rms": 0.0,
+            "changed_fraction": 0.0
+          },
+          "layer_output": {
+            "max_abs": 0.0322265625,
+            "rms": 0.0065161739476025105,
+            "changed_fraction": 0.9833470582962036
+          },
+          "last_token_logits": {
+            "max_abs": 0.046875,
+            "rms": 0.01043966319411993,
+            "changed_fraction": 0.9483861923217773
+          }
+        }
+      },
+      "decision": {
+        "raw_generation": "> go to countertop 1\n",
+        "token_ids": [
+          29,
+          728,
+          311,
+          60110,
+          453,
+          220,
+          16,
+          198
+        ],
+        "first_different_token": null,
+        "shared_prefix_scores": [
+          {
+            "token_position": 1,
+            "original_token_id": 29,
+            "original_token": ">",
+            "candidate_token_id": 29,
+            "candidate_token": ">",
+            "original_top2_margin": 8.265625,
+            "candidate_top2_margin": 8.046875,
+            "candidate_lead_of_original_token": 8.046875
+          },
+          {
+            "token_position": 2,
+            "original_token_id": 728,
+            "original_token": " go",
+            "candidate_token_id": 728,
+            "candidate_token": " go",
+            "original_top2_margin": 8.0,
+            "candidate_top2_margin": 8.09375,
+            "candidate_lead_of_original_token": 8.09375
+          },
+          {
+            "token_position": 3,
+            "original_token_id": 311,
+            "original_token": " to",
+            "candidate_token_id": 311,
+            "candidate_token": " to",
+            "original_top2_margin": 29.703125,
+            "candidate_top2_margin": 29.671875,
+            "candidate_lead_of_original_token": 29.671875
+          },
+          {
+            "token_position": 4,
+            "original_token_id": 60110,
+            "original_token": " countert",
+            "candidate_token_id": 60110,
+            "candidate_token": " countert",
+            "original_top2_margin": 13.90625,
+            "candidate_top2_margin": 13.703125,
+            "candidate_lead_of_original_token": 13.703125
+          },
+          {
+            "token_position": 5,
+            "original_token_id": 453,
+            "original_token": "op",
+            "candidate_token_id": 453,
+            "candidate_token": "op",
+            "original_top2_margin": 20.234375,
+            "candidate_top2_margin": 20.25,
+            "candidate_lead_of_original_token": 20.25
+          },
+          {
+            "token_position": 6,
+            "original_token_id": 220,
+            "original_token": " ",
+            "candidate_token_id": 220,
+            "candidate_token": " ",
+            "original_top2_margin": 36.015625,
+            "candidate_top2_margin": 35.921875,
+            "candidate_lead_of_original_token": 35.921875
+          },
+          {
+            "token_position": 7,
+            "original_token_id": 16,
+            "original_token": "1",
+            "candidate_token_id": 16,
+            "candidate_token": "1",
+            "original_top2_margin": 17.34375,
+            "candidate_top2_margin": 17.21875,
+            "candidate_lead_of_original_token": 17.21875
+          },
+          {
+            "token_position": 8,
+            "original_token_id": 198,
+            "original_token": "\n",
+            "candidate_token_id": 198,
+            "candidate_token": "\n",
+            "original_top2_margin": 11.328125,
+            "candidate_top2_margin": 11.234375,
+            "candidate_lead_of_original_token": 11.234375
+          }
+        ]
+      },
+      "episodes": [
+        {
+          "scene": {
+            "task": "pick_and_place_simple",
+            "id": "json_2.1.1/valid_seen/pick_and_place_simple-Book-None-SideTable-329/trial_T20190908_050633_745514/game.tw-pddl",
+            "sha256": "e9ced02262678598e81db73781e8979ab9297e77ea5a424b8fd580fa0452e784"
+          },
+          "baseline_won": true,
+          "baseline_steps": 10,
+          "first_different_action": null,
+          "first_different_line": null,
+          "initial_observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a bed 1, a diningtable 1, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a garbagecan 1, a sidetable 2, and a sidetable 1.\n\nYour task is to: put some book on sidetable.",
+          "won": true,
+          "stop": "environment_done",
+          "rounds": 11,
+          "steps": 10,
+          "actions": [
+            "go to drawer 1",
+            "open drawer 1",
+            "go to drawer 2",
+            "open drawer 2",
+            "go to drawer 3",
+            "go to drawer 4",
+            "go to diningtable 1",
+            "take book 3 from diningtable 1",
+            "go to sidetable 1",
+            "move book 3 to sidetable 1"
+          ],
+          "thoughts": [
+            {
+              "round": 1,
+              "text": "think: To solve the task, I need to find and take a book, then put it on sidetable. I should start by checking places where books are likely to be, such as drawers (1-4), diningtable (1), sidetable (1-2), and garbagecan (1). I will"
+            }
+          ],
+          "trace": "/mnt/d/RSI-outputs/alfworld/compare-01/01-perturbed.jsonl",
+          "elapsed_seconds": 10.997294500999942,
+          "peak_allocated_mib": 2967.93798828125,
+          "peak_reserved_mib": 3638.0
+        },
+        {
+          "scene": {
+            "task": "pick_clean_then_place_in_recep",
+            "id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-ButterKnife-None-CounterTop-8/trial_T20190909_105559_983897/game.tw-pddl",
+            "sha256": "6d8c41796613a39222ebdfd5e7781787b860f67ab0b3ac1eade00a862a06b9fa"
+          },
+          "baseline_won": true,
+          "baseline_steps": 7,
+          "first_different_action": null,
+          "first_different_line": null,
+          "initial_observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 18, a cabinet 17, a cabinet 16, a cabinet 15, a cabinet 14, a cabinet 13, a cabinet 12, a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 4, a countertop 3, a countertop 2, a countertop 1, a drawer 7, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\n\nYour task is to: put a clean butterknife in countertop.",
+          "won": true,
+          "stop": "environment_done",
+          "rounds": 9,
+          "steps": 7,
+          "actions": [
+            "go to countertop 1",
+            "go to countertop 2",
+            "take butterknife 1 from countertop 2",
+            "go to sinkbasin 1",
+            "clean butterknife 1 with sinkbasin 1",
+            "go to countertop 1",
+            "move butterknife 1 to countertop 1"
+          ],
+          "thoughts": [
+            {
+              "round": 1,
+              "text": "think: To solve the task, I need to find and take a butterknife, then clean it with sinkbasin, then put it in countertop."
+            },
+            {
+              "round": 5,
+              "text": "think: Now I have the butterknife 1. Next, I need to go to sinkbasin 1 and clean it."
+            }
+          ],
+          "trace": "/mnt/d/RSI-outputs/alfworld/compare-01/02-perturbed.jsonl",
+          "elapsed_seconds": 13.633870059999936,
+          "peak_allocated_mib": 3065.23388671875,
+          "peak_reserved_mib": 3638.0
+        },
+        {
+          "scene": {
+            "task": "pick_cool_then_place_in_recep",
+            "id": "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Apple-None-CounterTop-14/trial_T20190909_044933_815840/game.tw-pddl",
+            "sha256": "bb44abba8c05ba976daaccfcd811ca543bfb51e1f79b7446bb3d9c02113ab037"
+          },
+          "baseline_won": false,
+          "baseline_steps": 49,
+          "first_different_action": null,
+          "first_different_line": null,
+          "initial_observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 2, a countertop 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\n\nYour task is to: cool some apple and put it in countertop.",
+          "won": false,
+          "stop": "round_limit",
+          "rounds": 50,
+          "steps": 49,
+          "actions": [
+            "go to countertop 1",
+            "go to countertop 2",
+            "go to fridge 1",
+            "open fridge 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 2",
+            "take apple 1 from countertop 2",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 2",
+            "take apple 1 from countertop 2",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 2",
+            "take apple 1 from countertop 2",
+            "go to cabinet 1",
+            "take apple 1 from cabinet 1",
+            "go to cabinet 2",
+            "take apple 1 from cabinet 2",
+            "go to cabinet 3",
+            "open cabinet 3",
+            "go to cabinet 4",
+            "open cabinet 4",
+            "go to cabinet 5",
+            "open cabinet 5",
+            "take apple 1 from cabinet 5",
+            "go to cabinet 6",
+            "take apple 1 from cabinet 6",
+            "go to cabinet 7",
+            "take apple 1 from cabinet 7",
+            "go to cabinet 8",
+            "open cabinet 8",
+            "take apple 1 from cabinet 8",
+            "go to fridge 1",
+            "take apple 1 from fridge 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 2",
+            "take apple 1 from countertop 2",
+            "go to fridge 1",
+            "take apple 1 from fridge 1",
+            "go to cabinet 1"
+          ],
+          "thoughts": [
+            {
+              "round": 1,
+              "text": "think: To solve the task, I need to find and take an apple, then cool it with fridge, then put it in countertop."
+            }
+          ],
+          "trace": "/mnt/d/RSI-outputs/alfworld/compare-01/03-perturbed.jsonl",
+          "elapsed_seconds": 68.35215420899976,
+          "peak_allocated_mib": 3333.14404296875,
+          "peak_reserved_mib": 3638.0
+        }
+      ]
+    },
+    {
+      "name": "seed-20261120-scale-0.05",
+      "seed": 20261120,
+      "scale": 0.05,
+      "reused": false,
+      "restored_weight_sha256": "200c612190183bf82bfe4bf7604020a2407ee603b8643ffd1e79f607fa59643c",
+      "weights": {
+        "sigma": 0.0012231254018843175,
+        "relative_frobenius_delta": 0.049979325383901596,
+        "weight_sha256": "3caa8f9b99c25bb98b6cf7e0f52b5509bd97280563dd26fa84ff26b1955e7348",
+        "forward_difference": {
+          "layer_input": {
+            "max_abs": 0.0,
+            "rms": 0.0,
+            "changed_fraction": 0.0
+          },
+          "layer_output": {
+            "max_abs": 0.1603546142578125,
+            "rms": 0.03249455988407135,
+            "changed_fraction": 0.9965049624443054
+          },
+          "last_token_logits": {
+            "max_abs": 0.15625,
+            "rms": 0.032612890005111694,
+            "changed_fraction": 0.9830389022827148
+          }
+        }
+      },
+      "decision": {
+        "raw_generation": "> go to countertop 1\n",
+        "token_ids": [
+          29,
+          728,
+          311,
+          60110,
+          453,
+          220,
+          16,
+          198
+        ],
+        "first_different_token": null,
+        "shared_prefix_scores": [
+          {
+            "token_position": 1,
+            "original_token_id": 29,
+            "original_token": ">",
+            "candidate_token_id": 29,
+            "candidate_token": ">",
+            "original_top2_margin": 8.265625,
+            "candidate_top2_margin": 6.984375,
+            "candidate_lead_of_original_token": 6.984375
+          },
+          {
+            "token_position": 2,
+            "original_token_id": 728,
+            "original_token": " go",
+            "candidate_token_id": 728,
+            "candidate_token": " go",
+            "original_top2_margin": 8.0,
+            "candidate_top2_margin": 7.875,
+            "candidate_lead_of_original_token": 7.875
+          },
+          {
+            "token_position": 3,
+            "original_token_id": 311,
+            "original_token": " to",
+            "candidate_token_id": 311,
+            "candidate_token": " to",
+            "original_top2_margin": 29.703125,
+            "candidate_top2_margin": 29.671875,
+            "candidate_lead_of_original_token": 29.671875
+          },
+          {
+            "token_position": 4,
+            "original_token_id": 60110,
+            "original_token": " countert",
+            "candidate_token_id": 60110,
+            "candidate_token": " countert",
+            "original_top2_margin": 13.90625,
+            "candidate_top2_margin": 12.84375,
+            "candidate_lead_of_original_token": 12.84375
+          },
+          {
+            "token_position": 5,
+            "original_token_id": 453,
+            "original_token": "op",
+            "candidate_token_id": 453,
+            "candidate_token": "op",
+            "original_top2_margin": 20.234375,
+            "candidate_top2_margin": 20.28125,
+            "candidate_lead_of_original_token": 20.28125
+          },
+          {
+            "token_position": 6,
+            "original_token_id": 220,
+            "original_token": " ",
+            "candidate_token_id": 220,
+            "candidate_token": " ",
+            "original_top2_margin": 36.015625,
+            "candidate_top2_margin": 36.046875,
+            "candidate_lead_of_original_token": 36.046875
+          },
+          {
+            "token_position": 7,
+            "original_token_id": 16,
+            "original_token": "1",
+            "candidate_token_id": 16,
+            "candidate_token": "1",
+            "original_top2_margin": 17.34375,
+            "candidate_top2_margin": 16.875,
+            "candidate_lead_of_original_token": 16.875
+          },
+          {
+            "token_position": 8,
+            "original_token_id": 198,
+            "original_token": "\n",
+            "candidate_token_id": 198,
+            "candidate_token": "\n",
+            "original_top2_margin": 11.328125,
+            "candidate_top2_margin": 10.9375,
+            "candidate_lead_of_original_token": 10.9375
+          }
+        ]
+      },
+      "episodes": [
+        {
+          "scene": {
+            "task": "pick_and_place_simple",
+            "id": "json_2.1.1/valid_seen/pick_and_place_simple-Book-None-SideTable-329/trial_T20190908_050633_745514/game.tw-pddl",
+            "sha256": "e9ced02262678598e81db73781e8979ab9297e77ea5a424b8fd580fa0452e784"
+          },
+          "baseline_won": true,
+          "baseline_steps": 10,
+          "first_different_action": null,
+          "first_different_line": null,
+          "initial_observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a bed 1, a diningtable 1, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a garbagecan 1, a sidetable 2, and a sidetable 1.\n\nYour task is to: put some book on sidetable.",
+          "won": true,
+          "stop": "environment_done",
+          "rounds": 11,
+          "steps": 10,
+          "actions": [
+            "go to drawer 1",
+            "open drawer 1",
+            "go to drawer 2",
+            "open drawer 2",
+            "go to drawer 3",
+            "go to drawer 4",
+            "go to diningtable 1",
+            "take book 3 from diningtable 1",
+            "go to sidetable 1",
+            "move book 3 to sidetable 1"
+          ],
+          "thoughts": [
+            {
+              "round": 1,
+              "text": "think: To solve the task, I need to find and take a book, then put it on sidetable. I should start by checking places where books are likely to be, such as drawers (1-4), diningtable (1), sidetable (1-2), and garbagecan (1). I will"
+            }
+          ],
+          "trace": "/mnt/d/RSI-outputs/alfworld/sweep-01/seed-20261120-scale-0.05/01.jsonl",
+          "elapsed_seconds": 11.666062270000111,
+          "peak_allocated_mib": 2945.96142578125,
+          "peak_reserved_mib": 3192.0
+        },
+        {
+          "scene": {
+            "task": "pick_clean_then_place_in_recep",
+            "id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-ButterKnife-None-CounterTop-8/trial_T20190909_105559_983897/game.tw-pddl",
+            "sha256": "6d8c41796613a39222ebdfd5e7781787b860f67ab0b3ac1eade00a862a06b9fa"
+          },
+          "baseline_won": true,
+          "baseline_steps": 7,
+          "first_different_action": null,
+          "first_different_line": null,
+          "initial_observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 18, a cabinet 17, a cabinet 16, a cabinet 15, a cabinet 14, a cabinet 13, a cabinet 12, a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 4, a countertop 3, a countertop 2, a countertop 1, a drawer 7, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\n\nYour task is to: put a clean butterknife in countertop.",
+          "won": true,
+          "stop": "environment_done",
+          "rounds": 9,
+          "steps": 7,
+          "actions": [
+            "go to countertop 1",
+            "go to countertop 2",
+            "take butterknife 1 from countertop 2",
+            "go to sinkbasin 1",
+            "clean butterknife 1 with sinkbasin 1",
+            "go to countertop 1",
+            "move butterknife 1 to countertop 1"
+          ],
+          "thoughts": [
+            {
+              "round": 1,
+              "text": "think: To solve the task, I need to find and take a butterknife, then clean it with sinkbasin, then put it in countertop."
+            },
+            {
+              "round": 5,
+              "text": "think: Now I have the butterknife 1. Next, I need to go to sinkbasin 1 and clean it."
+            }
+          ],
+          "trace": "/mnt/d/RSI-outputs/alfworld/sweep-01/seed-20261120-scale-0.05/02.jsonl",
+          "elapsed_seconds": 13.562988018999931,
+          "peak_allocated_mib": 3063.564453125,
+          "peak_reserved_mib": 3192.0
+        },
+        {
+          "scene": {
+            "task": "pick_cool_then_place_in_recep",
+            "id": "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Apple-None-CounterTop-14/trial_T20190909_044933_815840/game.tw-pddl",
+            "sha256": "bb44abba8c05ba976daaccfcd811ca543bfb51e1f79b7446bb3d9c02113ab037"
+          },
+          "baseline_won": false,
+          "baseline_steps": 49,
+          "first_different_action": {
+            "action_index": 17,
+            "original": "go to countertop 1",
+            "perturbed": "go to cabinet 1"
+          },
+          "first_different_line": {
+            "round": 18,
+            "original": "go to countertop 1",
+            "candidate": "go to cabinet 1",
+            "original_observation": "Nothing happens.",
+            "candidate_observation": "Nothing happens."
+          },
+          "initial_observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 2, a countertop 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\n\nYour task is to: cool some apple and put it in countertop.",
+          "won": false,
+          "stop": "round_limit",
+          "rounds": 50,
+          "steps": 49,
+          "actions": [
+            "go to countertop 1",
+            "go to countertop 2",
+            "go to fridge 1",
+            "open fridge 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 2",
+            "take apple 1 from countertop 2",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 2",
+            "take apple 1 from countertop 2",
+            "go to cabinet 1",
+            "take apple 1 from cabinet 1",
+            "go to cabinet 2",
+            "take apple 1 from cabinet 2",
+            "go to cabinet 3",
+            "open cabinet 3",
+            "go to cabinet 4",
+            "open cabinet 4",
+            "go to cabinet 5",
+            "open cabinet 5",
+            "take apple 1 from cabinet 5",
+            "go to cabinet 6",
+            "take apple 1 from cabinet 6",
+            "go to cabinet 7",
+            "take apple 1 from cabinet 7",
+            "go to cabinet 8",
+            "open cabinet 8",
+            "take apple 1 from cabinet 8",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to fridge 1",
+            "take apple 1 from fridge 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 2",
+            "take apple 1 from countertop 2",
+            "go to fridge 1",
+            "take apple 1 from fridge 1",
+            "go to cabinet 1",
+            "take apple 1 from cabinet 1",
+            "go to cabinet 16",
+            "go to cabinet 16",
+            "take apple 1 from cabinet 16"
+          ],
+          "thoughts": [
+            {
+              "round": 1,
+              "text": "think: To solve the task, I need to find and take an apple, then cool it with fridge, then put it in countertop."
+            }
+          ],
+          "trace": "/mnt/d/RSI-outputs/alfworld/sweep-01/seed-20261120-scale-0.05/03.jsonl",
+          "elapsed_seconds": 69.17928617100006,
+          "peak_allocated_mib": 3318.20361328125,
+          "peak_reserved_mib": 3608.0
+        }
+      ]
+    },
+    {
+      "name": "seed-20261121-scale-0.01",
+      "seed": 20261121,
+      "scale": 0.01,
+      "reused": false,
+      "restored_weight_sha256": "200c612190183bf82bfe4bf7604020a2407ee603b8643ffd1e79f607fa59643c",
+      "weights": {
+        "sigma": 0.0002446250803768635,
+        "relative_frobenius_delta": 0.010000570677220821,
+        "weight_sha256": "f2a11917e1f6beea84ae0f476a21c7d7a20314ecd5bd79bb3380d0c1f7cd4dc3",
+        "forward_difference": {
+          "layer_input": {
+            "max_abs": 0.0,
+            "rms": 0.0,
+            "changed_fraction": 0.0
+          },
+          "layer_output": {
+            "max_abs": 0.033203125,
+            "rms": 0.006544691976159811,
+            "changed_fraction": 0.9833984375
+          },
+          "last_token_logits": {
+            "max_abs": 0.04541015625,
+            "rms": 0.010184111073613167,
+            "changed_fraction": 0.9486625790596008
+          }
+        }
+      },
+      "decision": {
+        "raw_generation": "> go to countertop 1\n",
+        "token_ids": [
+          29,
+          728,
+          311,
+          60110,
+          453,
+          220,
+          16,
+          198
+        ],
+        "first_different_token": null,
+        "shared_prefix_scores": [
+          {
+            "token_position": 1,
+            "original_token_id": 29,
+            "original_token": ">",
+            "candidate_token_id": 29,
+            "candidate_token": ">",
+            "original_top2_margin": 8.265625,
+            "candidate_top2_margin": 8.234375,
+            "candidate_lead_of_original_token": 8.234375
+          },
+          {
+            "token_position": 2,
+            "original_token_id": 728,
+            "original_token": " go",
+            "candidate_token_id": 728,
+            "candidate_token": " go",
+            "original_top2_margin": 8.0,
+            "candidate_top2_margin": 8.0625,
+            "candidate_lead_of_original_token": 8.0625
+          },
+          {
+            "token_position": 3,
+            "original_token_id": 311,
+            "original_token": " to",
+            "candidate_token_id": 311,
+            "candidate_token": " to",
+            "original_top2_margin": 29.703125,
+            "candidate_top2_margin": 29.671875,
+            "candidate_lead_of_original_token": 29.671875
+          },
+          {
+            "token_position": 4,
+            "original_token_id": 60110,
+            "original_token": " countert",
+            "candidate_token_id": 60110,
+            "candidate_token": " countert",
+            "original_top2_margin": 13.90625,
+            "candidate_top2_margin": 13.890625,
+            "candidate_lead_of_original_token": 13.890625
+          },
+          {
+            "token_position": 5,
+            "original_token_id": 453,
+            "original_token": "op",
+            "candidate_token_id": 453,
+            "candidate_token": "op",
+            "original_top2_margin": 20.234375,
+            "candidate_top2_margin": 20.234375,
+            "candidate_lead_of_original_token": 20.234375
+          },
+          {
+            "token_position": 6,
+            "original_token_id": 220,
+            "original_token": " ",
+            "candidate_token_id": 220,
+            "candidate_token": " ",
+            "original_top2_margin": 36.015625,
+            "candidate_top2_margin": 35.984375,
+            "candidate_lead_of_original_token": 35.984375
+          },
+          {
+            "token_position": 7,
+            "original_token_id": 16,
+            "original_token": "1",
+            "candidate_token_id": 16,
+            "candidate_token": "1",
+            "original_top2_margin": 17.34375,
+            "candidate_top2_margin": 17.25,
+            "candidate_lead_of_original_token": 17.25
+          },
+          {
+            "token_position": 8,
+            "original_token_id": 198,
+            "original_token": "\n",
+            "candidate_token_id": 198,
+            "candidate_token": "\n",
+            "original_top2_margin": 11.328125,
+            "candidate_top2_margin": 11.421875,
+            "candidate_lead_of_original_token": 11.421875
+          }
+        ]
+      },
+      "episodes": [
+        {
+          "scene": {
+            "task": "pick_and_place_simple",
+            "id": "json_2.1.1/valid_seen/pick_and_place_simple-Book-None-SideTable-329/trial_T20190908_050633_745514/game.tw-pddl",
+            "sha256": "e9ced02262678598e81db73781e8979ab9297e77ea5a424b8fd580fa0452e784"
+          },
+          "baseline_won": true,
+          "baseline_steps": 10,
+          "first_different_action": null,
+          "first_different_line": null,
+          "initial_observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a bed 1, a diningtable 1, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a garbagecan 1, a sidetable 2, and a sidetable 1.\n\nYour task is to: put some book on sidetable.",
+          "won": true,
+          "stop": "environment_done",
+          "rounds": 11,
+          "steps": 10,
+          "actions": [
+            "go to drawer 1",
+            "open drawer 1",
+            "go to drawer 2",
+            "open drawer 2",
+            "go to drawer 3",
+            "go to drawer 4",
+            "go to diningtable 1",
+            "take book 3 from diningtable 1",
+            "go to sidetable 1",
+            "move book 3 to sidetable 1"
+          ],
+          "thoughts": [
+            {
+              "round": 1,
+              "text": "think: To solve the task, I need to find and take a book, then put it on sidetable. I should start by checking places where books are likely to be, such as drawers (1-4), diningtable (1), sidetable (1-2), and garbagecan (1). I will"
+            }
+          ],
+          "trace": "/mnt/d/RSI-outputs/alfworld/sweep-01/seed-20261121-scale-0.01/01.jsonl",
+          "elapsed_seconds": 11.007027455999378,
+          "peak_allocated_mib": 2946.53076171875,
+          "peak_reserved_mib": 3608.0
+        },
+        {
+          "scene": {
+            "task": "pick_clean_then_place_in_recep",
+            "id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-ButterKnife-None-CounterTop-8/trial_T20190909_105559_983897/game.tw-pddl",
+            "sha256": "6d8c41796613a39222ebdfd5e7781787b860f67ab0b3ac1eade00a862a06b9fa"
+          },
+          "baseline_won": true,
+          "baseline_steps": 7,
+          "first_different_action": null,
+          "first_different_line": null,
+          "initial_observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 18, a cabinet 17, a cabinet 16, a cabinet 15, a cabinet 14, a cabinet 13, a cabinet 12, a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 4, a countertop 3, a countertop 2, a countertop 1, a drawer 7, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\n\nYour task is to: put a clean butterknife in countertop.",
+          "won": true,
+          "stop": "environment_done",
+          "rounds": 9,
+          "steps": 7,
+          "actions": [
+            "go to countertop 1",
+            "go to countertop 2",
+            "take butterknife 1 from countertop 2",
+            "go to sinkbasin 1",
+            "clean butterknife 1 with sinkbasin 1",
+            "go to countertop 1",
+            "move butterknife 1 to countertop 1"
+          ],
+          "thoughts": [
+            {
+              "round": 1,
+              "text": "think: To solve the task, I need to find and take a butterknife, then clean it with sinkbasin, then put it in countertop."
+            },
+            {
+              "round": 5,
+              "text": "think: Now I have the butterknife 1. Next, I need to go to sinkbasin 1 and clean it."
+            }
+          ],
+          "trace": "/mnt/d/RSI-outputs/alfworld/sweep-01/seed-20261121-scale-0.01/02.jsonl",
+          "elapsed_seconds": 14.061642311000469,
+          "peak_allocated_mib": 3066.08984375,
+          "peak_reserved_mib": 3608.0
+        },
+        {
+          "scene": {
+            "task": "pick_cool_then_place_in_recep",
+            "id": "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Apple-None-CounterTop-14/trial_T20190909_044933_815840/game.tw-pddl",
+            "sha256": "bb44abba8c05ba976daaccfcd811ca543bfb51e1f79b7446bb3d9c02113ab037"
+          },
+          "baseline_won": false,
+          "baseline_steps": 49,
+          "first_different_action": null,
+          "first_different_line": null,
+          "initial_observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 2, a countertop 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\n\nYour task is to: cool some apple and put it in countertop.",
+          "won": false,
+          "stop": "round_limit",
+          "rounds": 50,
+          "steps": 49,
+          "actions": [
+            "go to countertop 1",
+            "go to countertop 2",
+            "go to fridge 1",
+            "open fridge 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 2",
+            "take apple 1 from countertop 2",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 2",
+            "take apple 1 from countertop 2",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 2",
+            "take apple 1 from countertop 2",
+            "go to cabinet 1",
+            "take apple 1 from cabinet 1",
+            "go to cabinet 2",
+            "take apple 1 from cabinet 2",
+            "go to cabinet 3",
+            "open cabinet 3",
+            "go to cabinet 4",
+            "open cabinet 4",
+            "go to cabinet 5",
+            "open cabinet 5",
+            "take apple 1 from cabinet 5",
+            "go to cabinet 6",
+            "take apple 1 from cabinet 6",
+            "go to cabinet 7",
+            "take apple 1 from cabinet 7",
+            "go to cabinet 8",
+            "open cabinet 8",
+            "take apple 1 from cabinet 8",
+            "go to fridge 1",
+            "take apple 1 from fridge 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 2",
+            "take apple 1 from countertop 2",
+            "go to fridge 1",
+            "take apple 1 from fridge 1",
+            "go to cabinet 1"
+          ],
+          "thoughts": [
+            {
+              "round": 1,
+              "text": "think: To solve the task, I need to find and take an apple, then cool it with fridge, then put it in countertop."
+            }
+          ],
+          "trace": "/mnt/d/RSI-outputs/alfworld/sweep-01/seed-20261121-scale-0.01/03.jsonl",
+          "elapsed_seconds": 70.47487910600012,
+          "peak_allocated_mib": 3332.9833984375,
+          "peak_reserved_mib": 3608.0
+        }
+      ]
+    },
+    {
+      "name": "seed-20261121-scale-0.05",
+      "seed": 20261121,
+      "scale": 0.05,
+      "reused": false,
+      "restored_weight_sha256": "200c612190183bf82bfe4bf7604020a2407ee603b8643ffd1e79f607fa59643c",
+      "weights": {
+        "sigma": 0.0012231254018843175,
+        "relative_frobenius_delta": 0.050007764250040054,
+        "weight_sha256": "61b22238c9933ed62cc01d7bdd6283016e6e31755d982d473b6d3a1f7eea389f",
+        "forward_difference": {
+          "layer_input": {
+            "max_abs": 0.0,
+            "rms": 0.0,
+            "changed_fraction": 0.0
+          },
+          "layer_output": {
+            "max_abs": 0.166259765625,
+            "rms": 0.032661352306604385,
+            "changed_fraction": 0.9962479472160339
+          },
+          "last_token_logits": {
+            "max_abs": 0.1904296875,
+            "rms": 0.053081709891557693,
+            "changed_fraction": 0.9927864074707031
+          }
+        }
+      },
+      "decision": {
+        "raw_generation": "> go to countertop 1\n",
+        "token_ids": [
+          29,
+          728,
+          311,
+          60110,
+          453,
+          220,
+          16,
+          198
+        ],
+        "first_different_token": null,
+        "shared_prefix_scores": [
+          {
+            "token_position": 1,
+            "original_token_id": 29,
+            "original_token": ">",
+            "candidate_token_id": 29,
+            "candidate_token": ">",
+            "original_top2_margin": 8.265625,
+            "candidate_top2_margin": 8.28125,
+            "candidate_lead_of_original_token": 8.28125
+          },
+          {
+            "token_position": 2,
+            "original_token_id": 728,
+            "original_token": " go",
+            "candidate_token_id": 728,
+            "candidate_token": " go",
+            "original_top2_margin": 8.0,
+            "candidate_top2_margin": 8.1875,
+            "candidate_lead_of_original_token": 8.1875
+          },
+          {
+            "token_position": 3,
+            "original_token_id": 311,
+            "original_token": " to",
+            "candidate_token_id": 311,
+            "candidate_token": " to",
+            "original_top2_margin": 29.703125,
+            "candidate_top2_margin": 29.640625,
+            "candidate_lead_of_original_token": 29.640625
+          },
+          {
+            "token_position": 4,
+            "original_token_id": 60110,
+            "original_token": " countert",
+            "candidate_token_id": 60110,
+            "candidate_token": " countert",
+            "original_top2_margin": 13.90625,
+            "candidate_top2_margin": 13.78125,
+            "candidate_lead_of_original_token": 13.78125
+          },
+          {
+            "token_position": 5,
+            "original_token_id": 453,
+            "original_token": "op",
+            "candidate_token_id": 453,
+            "candidate_token": "op",
+            "original_top2_margin": 20.234375,
+            "candidate_top2_margin": 20.28125,
+            "candidate_lead_of_original_token": 20.28125
+          },
+          {
+            "token_position": 6,
+            "original_token_id": 220,
+            "original_token": " ",
+            "candidate_token_id": 220,
+            "candidate_token": " ",
+            "original_top2_margin": 36.015625,
+            "candidate_top2_margin": 36.046875,
+            "candidate_lead_of_original_token": 36.046875
+          },
+          {
+            "token_position": 7,
+            "original_token_id": 16,
+            "original_token": "1",
+            "candidate_token_id": 16,
+            "candidate_token": "1",
+            "original_top2_margin": 17.34375,
+            "candidate_top2_margin": 16.78125,
+            "candidate_lead_of_original_token": 16.78125
+          },
+          {
+            "token_position": 8,
+            "original_token_id": 198,
+            "original_token": "\n",
+            "candidate_token_id": 198,
+            "candidate_token": "\n",
+            "original_top2_margin": 11.328125,
+            "candidate_top2_margin": 11.625,
+            "candidate_lead_of_original_token": 11.625
+          }
+        ]
+      },
+      "episodes": [
+        {
+          "scene": {
+            "task": "pick_and_place_simple",
+            "id": "json_2.1.1/valid_seen/pick_and_place_simple-Book-None-SideTable-329/trial_T20190908_050633_745514/game.tw-pddl",
+            "sha256": "e9ced02262678598e81db73781e8979ab9297e77ea5a424b8fd580fa0452e784"
+          },
+          "baseline_won": true,
+          "baseline_steps": 10,
+          "first_different_action": null,
+          "first_different_line": null,
+          "initial_observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a bed 1, a diningtable 1, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a garbagecan 1, a sidetable 2, and a sidetable 1.\n\nYour task is to: put some book on sidetable.",
+          "won": true,
+          "stop": "environment_done",
+          "rounds": 11,
+          "steps": 10,
+          "actions": [
+            "go to drawer 1",
+            "open drawer 1",
+            "go to drawer 2",
+            "open drawer 2",
+            "go to drawer 3",
+            "go to drawer 4",
+            "go to diningtable 1",
+            "take book 3 from diningtable 1",
+            "go to sidetable 1",
+            "move book 3 to sidetable 1"
+          ],
+          "thoughts": [
+            {
+              "round": 1,
+              "text": "think: To solve the task, I need to find and take a book, then put it on sidetable. I should start by checking places where books are likely to be, such as drawers (1-4), diningtable (1), sidetable (1-2), and garbagecan (1). I will"
+            }
+          ],
+          "trace": "/mnt/d/RSI-outputs/alfworld/sweep-01/seed-20261121-scale-0.05/01.jsonl",
+          "elapsed_seconds": 11.651038541000162,
+          "peak_allocated_mib": 2946.53076171875,
+          "peak_reserved_mib": 3608.0
+        },
+        {
+          "scene": {
+            "task": "pick_clean_then_place_in_recep",
+            "id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-ButterKnife-None-CounterTop-8/trial_T20190909_105559_983897/game.tw-pddl",
+            "sha256": "6d8c41796613a39222ebdfd5e7781787b860f67ab0b3ac1eade00a862a06b9fa"
+          },
+          "baseline_won": true,
+          "baseline_steps": 7,
+          "first_different_action": null,
+          "first_different_line": null,
+          "initial_observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 18, a cabinet 17, a cabinet 16, a cabinet 15, a cabinet 14, a cabinet 13, a cabinet 12, a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 4, a countertop 3, a countertop 2, a countertop 1, a drawer 7, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\n\nYour task is to: put a clean butterknife in countertop.",
+          "won": true,
+          "stop": "environment_done",
+          "rounds": 9,
+          "steps": 7,
+          "actions": [
+            "go to countertop 1",
+            "go to countertop 2",
+            "take butterknife 1 from countertop 2",
+            "go to sinkbasin 1",
+            "clean butterknife 1 with sinkbasin 1",
+            "go to countertop 1",
+            "move butterknife 1 to countertop 1"
+          ],
+          "thoughts": [
+            {
+              "round": 1,
+              "text": "think: To solve the task, I need to find and take a butterknife, then clean it with sinkbasin, then put it in countertop."
+            },
+            {
+              "round": 5,
+              "text": "think: Now I have the butterknife 1. Next, I need to go to sinkbasin 1 and clean it."
+            }
+          ],
+          "trace": "/mnt/d/RSI-outputs/alfworld/sweep-01/seed-20261121-scale-0.05/02.jsonl",
+          "elapsed_seconds": 14.096684729999652,
+          "peak_allocated_mib": 3066.08984375,
+          "peak_reserved_mib": 3608.0
+        },
+        {
+          "scene": {
+            "task": "pick_cool_then_place_in_recep",
+            "id": "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Apple-None-CounterTop-14/trial_T20190909_044933_815840/game.tw-pddl",
+            "sha256": "bb44abba8c05ba976daaccfcd811ca543bfb51e1f79b7446bb3d9c02113ab037"
+          },
+          "baseline_won": false,
+          "baseline_steps": 49,
+          "first_different_action": null,
+          "first_different_line": null,
+          "initial_observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 2, a countertop 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\n\nYour task is to: cool some apple and put it in countertop.",
+          "won": false,
+          "stop": "round_limit",
+          "rounds": 50,
+          "steps": 49,
+          "actions": [
+            "go to countertop 1",
+            "go to countertop 2",
+            "go to fridge 1",
+            "open fridge 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 2",
+            "take apple 1 from countertop 2",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 2",
+            "take apple 1 from countertop 2",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 2",
+            "take apple 1 from countertop 2",
+            "go to cabinet 1",
+            "take apple 1 from cabinet 1",
+            "go to cabinet 2",
+            "take apple 1 from cabinet 2",
+            "go to cabinet 3",
+            "open cabinet 3",
+            "go to cabinet 4",
+            "open cabinet 4",
+            "go to cabinet 5",
+            "open cabinet 5",
+            "take apple 1 from cabinet 5",
+            "go to cabinet 6",
+            "take apple 1 from cabinet 6",
+            "go to cabinet 7",
+            "take apple 1 from cabinet 7",
+            "go to cabinet 8",
+            "open cabinet 8",
+            "take apple 1 from cabinet 8",
+            "go to fridge 1",
+            "take apple 1 from fridge 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 2",
+            "take apple 1 from countertop 2",
+            "go to fridge 1",
+            "take apple 1 from fridge 1",
+            "go to cabinet 1"
+          ],
+          "thoughts": [
+            {
+              "round": 1,
+              "text": "think: To solve the task, I need to find and take an apple, then cool it with fridge, then put it in countertop."
+            }
+          ],
+          "trace": "/mnt/d/RSI-outputs/alfworld/sweep-01/seed-20261121-scale-0.05/03.jsonl",
+          "elapsed_seconds": 68.8040586950001,
+          "peak_allocated_mib": 3332.9833984375,
+          "peak_reserved_mib": 3608.0
+        }
+      ]
+    },
+    {
+      "name": "seed-20261122-scale-0.01",
+      "seed": 20261122,
+      "scale": 0.01,
+      "reused": false,
+      "restored_weight_sha256": "200c612190183bf82bfe4bf7604020a2407ee603b8643ffd1e79f607fa59643c",
+      "weights": {
+        "sigma": 0.0002446250803768635,
+        "relative_frobenius_delta": 0.009999728761613369,
+        "weight_sha256": "3d9e2039e94dfa0c451c5d77bf0c8ea450a54565af7bbac2ca30ac6f7d87bb7f",
+        "forward_difference": {
+          "layer_input": {
+            "max_abs": 0.0,
+            "rms": 0.0,
+            "changed_fraction": 0.0
+          },
+          "layer_output": {
+            "max_abs": 0.03125,
+            "rms": 0.006745310965925455,
+            "changed_fraction": 0.9823190569877625
+          },
+          "last_token_logits": {
+            "max_abs": 0.0625,
+            "rms": 0.010260708630084991,
+            "changed_fraction": 0.9454507231712341
+          }
+        }
+      },
+      "decision": {
+        "raw_generation": "> go to countertop 1\n",
+        "token_ids": [
+          29,
+          728,
+          311,
+          60110,
+          453,
+          220,
+          16,
+          198
+        ],
+        "first_different_token": null,
+        "shared_prefix_scores": [
+          {
+            "token_position": 1,
+            "original_token_id": 29,
+            "original_token": ">",
+            "candidate_token_id": 29,
+            "candidate_token": ">",
+            "original_top2_margin": 8.265625,
+            "candidate_top2_margin": 8.28125,
+            "candidate_lead_of_original_token": 8.28125
+          },
+          {
+            "token_position": 2,
+            "original_token_id": 728,
+            "original_token": " go",
+            "candidate_token_id": 728,
+            "candidate_token": " go",
+            "original_top2_margin": 8.0,
+            "candidate_top2_margin": 8.09375,
+            "candidate_lead_of_original_token": 8.09375
+          },
+          {
+            "token_position": 3,
+            "original_token_id": 311,
+            "original_token": " to",
+            "candidate_token_id": 311,
+            "candidate_token": " to",
+            "original_top2_margin": 29.703125,
+            "candidate_top2_margin": 29.6875,
+            "candidate_lead_of_original_token": 29.6875
+          },
+          {
+            "token_position": 4,
+            "original_token_id": 60110,
+            "original_token": " countert",
+            "candidate_token_id": 60110,
+            "candidate_token": " countert",
+            "original_top2_margin": 13.90625,
+            "candidate_top2_margin": 13.796875,
+            "candidate_lead_of_original_token": 13.796875
+          },
+          {
+            "token_position": 5,
+            "original_token_id": 453,
+            "original_token": "op",
+            "candidate_token_id": 453,
+            "candidate_token": "op",
+            "original_top2_margin": 20.234375,
+            "candidate_top2_margin": 20.234375,
+            "candidate_lead_of_original_token": 20.234375
+          },
+          {
+            "token_position": 6,
+            "original_token_id": 220,
+            "original_token": " ",
+            "candidate_token_id": 220,
+            "candidate_token": " ",
+            "original_top2_margin": 36.015625,
+            "candidate_top2_margin": 35.953125,
+            "candidate_lead_of_original_token": 35.953125
+          },
+          {
+            "token_position": 7,
+            "original_token_id": 16,
+            "original_token": "1",
+            "candidate_token_id": 16,
+            "candidate_token": "1",
+            "original_top2_margin": 17.34375,
+            "candidate_top2_margin": 17.375,
+            "candidate_lead_of_original_token": 17.375
+          },
+          {
+            "token_position": 8,
+            "original_token_id": 198,
+            "original_token": "\n",
+            "candidate_token_id": 198,
+            "candidate_token": "\n",
+            "original_top2_margin": 11.328125,
+            "candidate_top2_margin": 11.5,
+            "candidate_lead_of_original_token": 11.5
+          }
+        ]
+      },
+      "episodes": [
+        {
+          "scene": {
+            "task": "pick_and_place_simple",
+            "id": "json_2.1.1/valid_seen/pick_and_place_simple-Book-None-SideTable-329/trial_T20190908_050633_745514/game.tw-pddl",
+            "sha256": "e9ced02262678598e81db73781e8979ab9297e77ea5a424b8fd580fa0452e784"
+          },
+          "baseline_won": true,
+          "baseline_steps": 10,
+          "first_different_action": null,
+          "first_different_line": null,
+          "initial_observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a bed 1, a diningtable 1, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a garbagecan 1, a sidetable 2, and a sidetable 1.\n\nYour task is to: put some book on sidetable.",
+          "won": true,
+          "stop": "environment_done",
+          "rounds": 11,
+          "steps": 10,
+          "actions": [
+            "go to drawer 1",
+            "open drawer 1",
+            "go to drawer 2",
+            "open drawer 2",
+            "go to drawer 3",
+            "go to drawer 4",
+            "go to diningtable 1",
+            "take book 3 from diningtable 1",
+            "go to sidetable 1",
+            "move book 3 to sidetable 1"
+          ],
+          "thoughts": [
+            {
+              "round": 1,
+              "text": "think: To solve the task, I need to find and take a book, then put it on sidetable. I should start by checking places where books are likely to be, such as drawers (1-4), diningtable (1), sidetable (1-2), and garbagecan (1). I will"
+            }
+          ],
+          "trace": "/mnt/d/RSI-outputs/alfworld/sweep-01/seed-20261122-scale-0.01/01.jsonl",
+          "elapsed_seconds": 11.151245495000694,
+          "peak_allocated_mib": 2946.53076171875,
+          "peak_reserved_mib": 3608.0
+        },
+        {
+          "scene": {
+            "task": "pick_clean_then_place_in_recep",
+            "id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-ButterKnife-None-CounterTop-8/trial_T20190909_105559_983897/game.tw-pddl",
+            "sha256": "6d8c41796613a39222ebdfd5e7781787b860f67ab0b3ac1eade00a862a06b9fa"
+          },
+          "baseline_won": true,
+          "baseline_steps": 7,
+          "first_different_action": null,
+          "first_different_line": null,
+          "initial_observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 18, a cabinet 17, a cabinet 16, a cabinet 15, a cabinet 14, a cabinet 13, a cabinet 12, a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 4, a countertop 3, a countertop 2, a countertop 1, a drawer 7, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\n\nYour task is to: put a clean butterknife in countertop.",
+          "won": true,
+          "stop": "environment_done",
+          "rounds": 9,
+          "steps": 7,
+          "actions": [
+            "go to countertop 1",
+            "go to countertop 2",
+            "take butterknife 1 from countertop 2",
+            "go to sinkbasin 1",
+            "clean butterknife 1 with sinkbasin 1",
+            "go to countertop 1",
+            "move butterknife 1 to countertop 1"
+          ],
+          "thoughts": [
+            {
+              "round": 1,
+              "text": "think: To solve the task, I need to find and take a butterknife, then clean it with sinkbasin, then put it in countertop."
+            },
+            {
+              "round": 5,
+              "text": "think: Now I have the butterknife 1. Next, I need to go to sinkbasin 1 and clean it."
+            }
+          ],
+          "trace": "/mnt/d/RSI-outputs/alfworld/sweep-01/seed-20261122-scale-0.01/02.jsonl",
+          "elapsed_seconds": 13.627467877000527,
+          "peak_allocated_mib": 3066.08984375,
+          "peak_reserved_mib": 3608.0
+        },
+        {
+          "scene": {
+            "task": "pick_cool_then_place_in_recep",
+            "id": "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Apple-None-CounterTop-14/trial_T20190909_044933_815840/game.tw-pddl",
+            "sha256": "bb44abba8c05ba976daaccfcd811ca543bfb51e1f79b7446bb3d9c02113ab037"
+          },
+          "baseline_won": false,
+          "baseline_steps": 49,
+          "first_different_action": null,
+          "first_different_line": null,
+          "initial_observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 2, a countertop 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\n\nYour task is to: cool some apple and put it in countertop.",
+          "won": false,
+          "stop": "round_limit",
+          "rounds": 50,
+          "steps": 49,
+          "actions": [
+            "go to countertop 1",
+            "go to countertop 2",
+            "go to fridge 1",
+            "open fridge 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 2",
+            "take apple 1 from countertop 2",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 2",
+            "take apple 1 from countertop 2",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 2",
+            "take apple 1 from countertop 2",
+            "go to cabinet 1",
+            "take apple 1 from cabinet 1",
+            "go to cabinet 2",
+            "take apple 1 from cabinet 2",
+            "go to cabinet 3",
+            "open cabinet 3",
+            "go to cabinet 4",
+            "open cabinet 4",
+            "go to cabinet 5",
+            "open cabinet 5",
+            "take apple 1 from cabinet 5",
+            "go to cabinet 6",
+            "take apple 1 from cabinet 6",
+            "go to cabinet 7",
+            "take apple 1 from cabinet 7",
+            "go to cabinet 8",
+            "open cabinet 8",
+            "take apple 1 from cabinet 8",
+            "go to fridge 1",
+            "take apple 1 from fridge 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 2",
+            "take apple 1 from countertop 2",
+            "go to fridge 1",
+            "take apple 1 from fridge 1",
+            "go to cabinet 1"
+          ],
+          "thoughts": [
+            {
+              "round": 1,
+              "text": "think: To solve the task, I need to find and take an apple, then cool it with fridge, then put it in countertop."
+            }
+          ],
+          "trace": "/mnt/d/RSI-outputs/alfworld/sweep-01/seed-20261122-scale-0.01/03.jsonl",
+          "elapsed_seconds": 67.89491201799956,
+          "peak_allocated_mib": 3332.9833984375,
+          "peak_reserved_mib": 3608.0
+        }
+      ]
+    },
+    {
+      "name": "seed-20261122-scale-0.05",
+      "seed": 20261122,
+      "scale": 0.05,
+      "reused": false,
+      "restored_weight_sha256": "200c612190183bf82bfe4bf7604020a2407ee603b8643ffd1e79f607fa59643c",
+      "weights": {
+        "sigma": 0.0012231254018843175,
+        "relative_frobenius_delta": 0.05000411719083786,
+        "weight_sha256": "eb9b58292f7677837967e397c5119cfaef5a8e567e48407dd37917a52fda00f3",
+        "forward_difference": {
+          "layer_input": {
+            "max_abs": 0.0,
+            "rms": 0.0,
+            "changed_fraction": 0.0
+          },
+          "layer_output": {
+            "max_abs": 0.1474609375,
+            "rms": 0.033654145896434784,
+            "changed_fraction": 0.9969161152839661
+          },
+          "last_token_logits": {
+            "max_abs": 0.2734375,
+            "rms": 0.04351939633488655,
+            "changed_fraction": 0.987830400466919
+          }
+        }
+      },
+      "decision": {
+        "raw_generation": "> go to countertop 1\n",
+        "token_ids": [
+          29,
+          728,
+          311,
+          60110,
+          453,
+          220,
+          16,
+          198
+        ],
+        "first_different_token": null,
+        "shared_prefix_scores": [
+          {
+            "token_position": 1,
+            "original_token_id": 29,
+            "original_token": ">",
+            "candidate_token_id": 29,
+            "candidate_token": ">",
+            "original_top2_margin": 8.265625,
+            "candidate_top2_margin": 7.03125,
+            "candidate_lead_of_original_token": 7.03125
+          },
+          {
+            "token_position": 2,
+            "original_token_id": 728,
+            "original_token": " go",
+            "candidate_token_id": 728,
+            "candidate_token": " go",
+            "original_top2_margin": 8.0,
+            "candidate_top2_margin": 8.5,
+            "candidate_lead_of_original_token": 8.5
+          },
+          {
+            "token_position": 3,
+            "original_token_id": 311,
+            "original_token": " to",
+            "candidate_token_id": 311,
+            "candidate_token": " to",
+            "original_top2_margin": 29.703125,
+            "candidate_top2_margin": 29.625,
+            "candidate_lead_of_original_token": 29.625
+          },
+          {
+            "token_position": 4,
+            "original_token_id": 60110,
+            "original_token": " countert",
+            "candidate_token_id": 60110,
+            "candidate_token": " countert",
+            "original_top2_margin": 13.90625,
+            "candidate_top2_margin": 13.5,
+            "candidate_lead_of_original_token": 13.5
+          },
+          {
+            "token_position": 5,
+            "original_token_id": 453,
+            "original_token": "op",
+            "candidate_token_id": 453,
+            "candidate_token": "op",
+            "original_top2_margin": 20.234375,
+            "candidate_top2_margin": 20.234375,
+            "candidate_lead_of_original_token": 20.234375
+          },
+          {
+            "token_position": 6,
+            "original_token_id": 220,
+            "original_token": " ",
+            "candidate_token_id": 220,
+            "candidate_token": " ",
+            "original_top2_margin": 36.015625,
+            "candidate_top2_margin": 35.78125,
+            "candidate_lead_of_original_token": 35.78125
+          },
+          {
+            "token_position": 7,
+            "original_token_id": 16,
+            "original_token": "1",
+            "candidate_token_id": 16,
+            "candidate_token": "1",
+            "original_top2_margin": 17.34375,
+            "candidate_top2_margin": 17.84375,
+            "candidate_lead_of_original_token": 17.84375
+          },
+          {
+            "token_position": 8,
+            "original_token_id": 198,
+            "original_token": "\n",
+            "candidate_token_id": 198,
+            "candidate_token": "\n",
+            "original_top2_margin": 11.328125,
+            "candidate_top2_margin": 12.296875,
+            "candidate_lead_of_original_token": 12.296875
+          }
+        ]
+      },
+      "episodes": [
+        {
+          "scene": {
+            "task": "pick_and_place_simple",
+            "id": "json_2.1.1/valid_seen/pick_and_place_simple-Book-None-SideTable-329/trial_T20190908_050633_745514/game.tw-pddl",
+            "sha256": "e9ced02262678598e81db73781e8979ab9297e77ea5a424b8fd580fa0452e784"
+          },
+          "baseline_won": true,
+          "baseline_steps": 10,
+          "first_different_action": null,
+          "first_different_line": null,
+          "initial_observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a bed 1, a diningtable 1, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a garbagecan 1, a sidetable 2, and a sidetable 1.\n\nYour task is to: put some book on sidetable.",
+          "won": true,
+          "stop": "environment_done",
+          "rounds": 11,
+          "steps": 10,
+          "actions": [
+            "go to drawer 1",
+            "open drawer 1",
+            "go to drawer 2",
+            "open drawer 2",
+            "go to drawer 3",
+            "go to drawer 4",
+            "go to diningtable 1",
+            "take book 3 from diningtable 1",
+            "go to sidetable 1",
+            "move book 3 to sidetable 1"
+          ],
+          "thoughts": [
+            {
+              "round": 1,
+              "text": "think: To solve the task, I need to find and take a book, then put it on sidetable. I should start by checking places where books are likely to be, such as drawers (1-4), diningtable (1), sidetable (1-2), and garbagecan (1). I will"
+            }
+          ],
+          "trace": "/mnt/d/RSI-outputs/alfworld/sweep-01/seed-20261122-scale-0.05/01.jsonl",
+          "elapsed_seconds": 11.165633082000568,
+          "peak_allocated_mib": 2946.53076171875,
+          "peak_reserved_mib": 3608.0
+        },
+        {
+          "scene": {
+            "task": "pick_clean_then_place_in_recep",
+            "id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-ButterKnife-None-CounterTop-8/trial_T20190909_105559_983897/game.tw-pddl",
+            "sha256": "6d8c41796613a39222ebdfd5e7781787b860f67ab0b3ac1eade00a862a06b9fa"
+          },
+          "baseline_won": true,
+          "baseline_steps": 7,
+          "first_different_action": null,
+          "first_different_line": null,
+          "initial_observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 18, a cabinet 17, a cabinet 16, a cabinet 15, a cabinet 14, a cabinet 13, a cabinet 12, a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 4, a countertop 3, a countertop 2, a countertop 1, a drawer 7, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\n\nYour task is to: put a clean butterknife in countertop.",
+          "won": true,
+          "stop": "environment_done",
+          "rounds": 9,
+          "steps": 7,
+          "actions": [
+            "go to countertop 1",
+            "go to countertop 2",
+            "take butterknife 1 from countertop 2",
+            "go to sinkbasin 1",
+            "clean butterknife 1 with sinkbasin 1",
+            "go to countertop 1",
+            "move butterknife 1 to countertop 1"
+          ],
+          "thoughts": [
+            {
+              "round": 1,
+              "text": "think: To solve the task, I need to find and take a butterknife, then clean it with sinkbasin, then put it in countertop."
+            },
+            {
+              "round": 5,
+              "text": "think: Now I have the butterknife 1. Next, I need to go to sinkbasin 1 and clean it."
+            }
+          ],
+          "trace": "/mnt/d/RSI-outputs/alfworld/sweep-01/seed-20261122-scale-0.05/02.jsonl",
+          "elapsed_seconds": 13.358289472999786,
+          "peak_allocated_mib": 3066.08984375,
+          "peak_reserved_mib": 3608.0
+        },
+        {
+          "scene": {
+            "task": "pick_cool_then_place_in_recep",
+            "id": "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Apple-None-CounterTop-14/trial_T20190909_044933_815840/game.tw-pddl",
+            "sha256": "bb44abba8c05ba976daaccfcd811ca543bfb51e1f79b7446bb3d9c02113ab037"
+          },
+          "baseline_won": false,
+          "baseline_steps": 49,
+          "first_different_action": null,
+          "first_different_line": null,
+          "initial_observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 2, a countertop 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\n\nYour task is to: cool some apple and put it in countertop.",
+          "won": false,
+          "stop": "round_limit",
+          "rounds": 50,
+          "steps": 49,
+          "actions": [
+            "go to countertop 1",
+            "go to countertop 2",
+            "go to fridge 1",
+            "open fridge 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 2",
+            "take apple 1 from countertop 2",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 2",
+            "take apple 1 from countertop 2",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 2",
+            "take apple 1 from countertop 2",
+            "go to cabinet 1",
+            "take apple 1 from cabinet 1",
+            "go to cabinet 2",
+            "take apple 1 from cabinet 2",
+            "go to cabinet 3",
+            "open cabinet 3",
+            "go to cabinet 4",
+            "open cabinet 4",
+            "go to cabinet 5",
+            "open cabinet 5",
+            "take apple 1 from cabinet 5",
+            "go to cabinet 6",
+            "take apple 1 from cabinet 6",
+            "go to cabinet 7",
+            "take apple 1 from cabinet 7",
+            "go to cabinet 8",
+            "open cabinet 8",
+            "take apple 1 from cabinet 8",
+            "go to fridge 1",
+            "take apple 1 from fridge 1",
+            "go to countertop 1",
+            "take apple 1 from countertop 1",
+            "go to countertop 2",
+            "take apple 1 from countertop 2",
+            "go to fridge 1",
+            "take apple 1 from fridge 1",
+            "go to cabinet 1"
+          ],
+          "thoughts": [
+            {
+              "round": 1,
+              "text": "think: To solve the task, I need to find and take an apple, then cool it with fridge, then put it in countertop."
+            }
+          ],
+          "trace": "/mnt/d/RSI-outputs/alfworld/sweep-01/seed-20261122-scale-0.05/03.jsonl",
+          "elapsed_seconds": 69.05363490200034,
+          "peak_allocated_mib": 3332.9833984375,
+          "peak_reserved_mib": 3608.0
+        }
+      ]
+    }
+  ],
+  "restored_decision_matches": true,
+  "wall_seconds": 509.3907923300003,
+  "model_load": {
+    "elapsed_seconds": 16.21047395699952,
+    "peak_allocated_mib": 2858.0,
+    "peak_reserved_mib": 2916.0,
+    "target_name": "model.layers.18.self_attn.v_proj.weight",
+    "target_dtype": "torch.float16",
+    "target_device": "cuda:0",
+    "target_shape": [
+      1024,
+      2560
+    ],
+    "neighboring_q_proj_quant_type": "nf4"
+  }
+}

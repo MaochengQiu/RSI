@@ -1,0 +1,3 @@
+source,train_count,eval_count,id_matches,puzzle_compact_matches,solution_compact_matches
+logged-mask15,32,32,0,0,0
+official-train-all-masks,128,32,0,0,0

@@ -1,0 +1,366 @@
+{
+  "n_tasks": 38,
+  "episodes": 266,
+  "seconds_in_episodes": 1421.9776138709983,
+  "peak_allocated_mib": 3017.04443359375,
+  "contrasts": {
+    "low_vs_base": {
+      "pairs": 114,
+      "actions_changed": 24,
+      "up": 2,
+      "down": 7,
+      "delta": -0.018128654970760234,
+      "task_bootstrap_95": [
+        -0.05847953216374269,
+        0.022222222222222223
+      ],
+      "task_gains": 2,
+      "task_losses": 5,
+      "first_event_by_outcome": {
+        "same": {
+          "equal": 90
+        },
+        "other_action": {
+          "equal": 12,
+          "down": 3
+        },
+        "right_continues": {
+          "down": 2,
+          "up": 1,
+          "equal": 1
+        },
+        "right_buys": {
+          "up": 1,
+          "down": 2,
+          "equal": 2
+        }
+      },
+      "first_events_by_seed": {
+        "20261120": {
+          "same": 30,
+          "other_action": 5,
+          "right_continues": 2,
+          "right_buys": 1
+        },
+        "20261121": {
+          "same": 31,
+          "right_buys": 2,
+          "other_action": 4,
+          "right_continues": 1
+        },
+        "20261122": {
+          "same": 29,
+          "right_buys": 2,
+          "other_action": 6,
+          "right_continues": 1
+        }
+      },
+      "first_action_types": {
+        "search -> search": 10,
+        "purchase -> navigation": 3,
+        "option -> purchase": 2,
+        "navigation -> purchase": 3,
+        "navigation -> option": 3,
+        "product -> product": 1,
+        "purchase -> option": 1,
+        "navigation -> navigation": 1
+      },
+      "by_seed_delta": {
+        "20261120": 0.011403508771929825,
+        "20261121": -0.05263157894736842,
+        "20261122": -0.013157894736842105
+      },
+      "purchase_gain": 1,
+      "purchase_loss": 2,
+      "full_gain": 2,
+      "full_loss": 6,
+      "means": {
+        "left_reward": 0.5497368421052632,
+        "right_reward": 0.5316081871345029,
+        "left_calls": 6.7368421052631575,
+        "right_calls": 6.640350877192983,
+        "left_rounds": 7.078947368421052,
+        "right_rounds": 7.140350877192983,
+        "left_input_tokens": 5810.605263157895,
+        "right_input_tokens": 5814.368421052632
+      },
+      "totals": {
+        "left": {
+          "bought": 93,
+          "full": 42,
+          "reached_full": 51
+        },
+        "right": {
+          "bought": 92,
+          "full": 38,
+          "reached_full": 47
+        }
+      }
+    },
+    "high_vs_base": {
+      "pairs": 114,
+      "actions_changed": 57,
+      "up": 13,
+      "down": 13,
+      "delta": 0.00646198830409357,
+      "task_bootstrap_95": [
+        -0.0743859649122807,
+        0.09400584795321637
+      ],
+      "task_gains": 8,
+      "task_losses": 8,
+      "first_event_by_outcome": {
+        "same": {
+          "equal": 57
+        },
+        "right_continues": {
+          "down": 4,
+          "equal": 4,
+          "up": 3
+        },
+        "other_action": {
+          "equal": 22,
+          "down": 7,
+          "up": 6
+        },
+        "right_buys": {
+          "up": 4,
+          "down": 2,
+          "equal": 5
+        }
+      },
+      "first_events_by_seed": {
+        "20261120": {
+          "same": 20,
+          "right_continues": 9,
+          "other_action": 8,
+          "right_buys": 1
+        },
+        "20261121": {
+          "other_action": 16,
+          "same": 18,
+          "right_buys": 3,
+          "right_continues": 1
+        },
+        "20261122": {
+          "same": 19,
+          "other_action": 11,
+          "right_buys": 7,
+          "right_continues": 1
+        }
+      },
+      "first_action_types": {
+        "purchase -> navigation": 7,
+        "search -> search": 28,
+        "purchase -> option": 4,
+        "option -> purchase": 5,
+        "navigation -> purchase": 6,
+        "navigation -> option": 2,
+        "product -> product": 4,
+        "navigation -> navigation": 1
+      },
+      "by_seed_delta": {
+        "20261120": -0.00850877192982456,
+        "20261121": -0.011403508771929822,
+        "20261122": 0.03929824561403509
+      },
+      "purchase_gain": 5,
+      "purchase_loss": 5,
+      "full_gain": 9,
+      "full_loss": 9,
+      "means": {
+        "left_reward": 0.5497368421052632,
+        "right_reward": 0.5561988304093567,
+        "left_calls": 6.7368421052631575,
+        "right_calls": 6.947368421052632,
+        "left_rounds": 7.078947368421052,
+        "right_rounds": 7.394736842105263,
+        "left_input_tokens": 5810.605263157895,
+        "right_input_tokens": 6036.561403508772
+      },
+      "totals": {
+        "left": {
+          "bought": 93,
+          "full": 42,
+          "reached_full": 51
+        },
+        "right": {
+          "bought": 93,
+          "full": 42,
+          "reached_full": 52
+        }
+      }
+    },
+    "high_vs_low": {
+      "pairs": 114,
+      "actions_changed": 42,
+      "up": 12,
+      "down": 6,
+      "delta": 0.024590643274853802,
+      "task_bootstrap_95": [
+        -0.03140350877192982,
+        0.08792397660818714
+      ],
+      "task_gains": 8,
+      "task_losses": 5,
+      "first_event_by_outcome": {
+        "same": {
+          "equal": 72
+        },
+        "right_continues": {
+          "down": 2,
+          "up": 3,
+          "equal": 5
+        },
+        "other_action": {
+          "equal": 14,
+          "down": 4,
+          "up": 6
+        },
+        "right_buys": {
+          "equal": 5,
+          "up": 3
+        }
+      },
+      "first_events_by_seed": {
+        "20261120": {
+          "same": 24,
+          "right_continues": 10,
+          "other_action": 4
+        },
+        "20261121": {
+          "other_action": 13,
+          "same": 23,
+          "right_buys": 2
+        },
+        "20261122": {
+          "same": 25,
+          "other_action": 7,
+          "right_buys": 6
+        }
+      },
+      "first_action_types": {
+        "purchase -> navigation": 6,
+        "purchase -> option": 4,
+        "option -> navigation": 1,
+        "search -> search": 18,
+        "option -> purchase": 4,
+        "navigation -> option": 1,
+        "product -> product": 3,
+        "navigation -> navigation": 1,
+        "navigation -> purchase": 4
+      },
+      "by_seed_delta": {
+        "20261120": -0.019912280701754385,
+        "20261121": 0.0412280701754386,
+        "20261122": 0.052456140350877194
+      },
+      "purchase_gain": 4,
+      "purchase_loss": 3,
+      "full_gain": 7,
+      "full_loss": 3,
+      "means": {
+        "left_reward": 0.5316081871345029,
+        "right_reward": 0.5561988304093567,
+        "left_calls": 6.640350877192983,
+        "right_calls": 6.947368421052632,
+        "left_rounds": 7.140350877192983,
+        "right_rounds": 7.394736842105263,
+        "left_input_tokens": 5814.368421052632,
+        "right_input_tokens": 6036.561403508772
+      },
+      "totals": {
+        "left": {
+          "bought": 92,
+          "full": 38,
+          "reached_full": 47
+        },
+        "right": {
+          "bought": 93,
+          "full": 42,
+          "reached_full": 52
+        }
+      }
+    }
+  },
+  "fixed_prompt_checkout": {
+    "low_vs_base": {
+      "full": {
+        "pairs": 51,
+        "distinct_prompts": 17,
+        "left_buy": 30,
+        "right_buy": 28,
+        "to_buy": 0,
+        "to_continue": 2
+      },
+      "partial": {
+        "pairs": 162,
+        "distinct_prompts": 54,
+        "left_buy": 36,
+        "right_buy": 35,
+        "to_buy": 2,
+        "to_continue": 3
+      },
+      "zero": {
+        "pairs": 12,
+        "distinct_prompts": 4,
+        "left_buy": 3,
+        "right_buy": 4,
+        "to_buy": 1,
+        "to_continue": 0
+      }
+    },
+    "high_vs_base": {
+      "full": {
+        "pairs": 51,
+        "distinct_prompts": 17,
+        "left_buy": 30,
+        "right_buy": 25,
+        "to_buy": 2,
+        "to_continue": 7
+      },
+      "partial": {
+        "pairs": 162,
+        "distinct_prompts": 54,
+        "left_buy": 36,
+        "right_buy": 34,
+        "to_buy": 4,
+        "to_continue": 6
+      },
+      "zero": {
+        "pairs": 12,
+        "distinct_prompts": 4,
+        "left_buy": 3,
+        "right_buy": 5,
+        "to_buy": 2,
+        "to_continue": 0
+      }
+    },
+    "high_vs_low": {
+      "full": {
+        "pairs": 51,
+        "distinct_prompts": 17,
+        "left_buy": 28,
+        "right_buy": 25,
+        "to_buy": 2,
+        "to_continue": 5
+      },
+      "partial": {
+        "pairs": 162,
+        "distinct_prompts": 54,
+        "left_buy": 35,
+        "right_buy": 34,
+        "to_buy": 2,
+        "to_continue": 3
+      },
+      "zero": {
+        "pairs": 12,
+        "distinct_prompts": 4,
+        "left_buy": 4,
+        "right_buy": 5,
+        "to_buy": 1,
+        "to_continue": 0
+      }
+    }
+  }
+}

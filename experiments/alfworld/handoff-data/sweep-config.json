@@ -1,0 +1,71 @@
+{
+  "reference": "/mnt/d/RSI-outputs/alfworld/compare-01",
+  "reference_configuration_sha256": "8ae73dc28d5baa408127f68e7c9c84e1e7afc1eb9d7187d45a648302461c71ef",
+  "sweep_sha256": "4df6f4861327f9ecb609ed3106b5eb0c6b451ee0589a6047a6fc56356dce7611",
+  "seeds": [
+    20261120,
+    20261121,
+    20261122
+  ],
+  "scales": [
+    0.01,
+    0.05
+  ],
+  "model_dir": "/home/mc/rsi-data/models/Qwen3-4B-1cfa9a7",
+  "settings": {
+    "scenes": [
+      {
+        "task": "pick_and_place_simple",
+        "id": "json_2.1.1/valid_seen/pick_and_place_simple-Book-None-SideTable-329/trial_T20190908_050633_745514/game.tw-pddl",
+        "sha256": "e9ced02262678598e81db73781e8979ab9297e77ea5a424b8fd580fa0452e784"
+      },
+      {
+        "task": "pick_clean_then_place_in_recep",
+        "id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-ButterKnife-None-CounterTop-8/trial_T20190909_105559_983897/game.tw-pddl",
+        "sha256": "6d8c41796613a39222ebdfd5e7781787b860f67ab0b3ac1eade00a862a06b9fa"
+      },
+      {
+        "task": "pick_cool_then_place_in_recep",
+        "id": "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Apple-None-CounterTop-14/trial_T20190909_044933_815840/game.tw-pddl",
+        "sha256": "bb44abba8c05ba976daaccfcd811ca543bfb51e1f79b7446bb3d9c02113ab037"
+      }
+    ],
+    "model": "Qwen/Qwen3-4B",
+    "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+    "react_revision": "6bdb3a1fd38b8188fc7ba4102969fe483df8fdc9",
+    "react_prompt_sha256": "a10976b4ae99f4802aa9e621933bb71065ae103f2bd273a24466ab1005fbc45a",
+    "runner_sha256": "06ae58d87ddcf303a71b2dfd09abe49ff046a6c495aac301443b0028d912d0c8",
+    "reproducibility_seed": 20261120,
+    "quantization": "BitsAndBytesConfig {\n  \"_load_in_4bit\": true,\n  \"_load_in_8bit\": false,\n  \"bnb_4bit_compute_dtype\": \"float16\",\n  \"bnb_4bit_quant_storage\": \"uint8\",\n  \"bnb_4bit_quant_type\": \"nf4\",\n  \"bnb_4bit_use_double_quant\": true,\n  \"llm_int8_enable_fp32_cpu_offload\": false,\n  \"llm_int8_has_fp16_weight\": false,\n  \"llm_int8_skip_modules\": [\n    \"model.layers.18.self_attn.v_proj\",\n    \"lm_head\"\n  ],\n  \"llm_int8_threshold\": 6.0,\n  \"load_in_4bit\": true,\n  \"load_in_8bit\": false,\n  \"quant_method\": \"bitsandbytes\"\n}\n",
+    "do_sample": false,
+    "num_beams": 1,
+    "enable_thinking": false,
+    "max_rounds": 50,
+    "max_input_tokens": 4096,
+    "max_new_tokens": 64,
+    "model_load": {
+      "elapsed_seconds": 9.55565803799982,
+      "peak_allocated_mib": 2858.0,
+      "peak_reserved_mib": 2916.0,
+      "target_name": "model.layers.18.self_attn.v_proj.weight",
+      "target_dtype": "torch.float16",
+      "target_device": "cuda:0",
+      "target_shape": [
+        1024,
+        2560
+      ],
+      "neighboring_q_proj_quant_type": "nf4"
+    },
+    "generation_stop": "first nonempty line or EOS or token limit",
+    "react_examples_adaptation": "Replace put X in/on Y with move X to Y in example action lines.",
+    "local_model_dir": "/home/mc/rsi-data/models/Qwen3-4B-1cfa9a7",
+    "versions": {
+      "alfworld": "0.4.2",
+      "textworld": "1.7.0",
+      "torch": "2.8.0+cu128",
+      "transformers": "4.57.6",
+      "accelerate": "1.10.1",
+      "bitsandbytes": "0.50.2"
+    }
+  }
+}

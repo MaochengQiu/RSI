@@ -1,0 +1,71 @@
+{
+  "parameter": "model.layers.18.self_attn.v_proj.weight",
+  "dtype": "torch.float16",
+  "shape": [
+    1024,
+    2560
+  ],
+  "sigma": 0.0002446250803768635,
+  "noise_seed": 20261120,
+  "target_rms_fraction": 0.01,
+  "relative_frobenius_delta": 0.009994731284677982,
+  "weight_delta": {
+    "max_abs": 0.001220703125,
+    "rms": 0.0002445640857331455,
+    "changed_fraction": 0.9781284332275391
+  },
+  "original_sha256": "200c612190183bf82bfe4bf7604020a2407ee603b8643ffd1e79f607fa59643c",
+  "perturbed_sha256": "7e62f16fc4b9a16c4a9bd1bfed6af337ca9d9a7d19bbd0a607eb23d060ef76ed",
+  "baseline_repeat": {
+    "layer_input": {
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_fraction": 0.0
+    },
+    "layer_output": {
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_fraction": 0.0
+    },
+    "last_token_logits": {
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_fraction": 0.0
+    }
+  },
+  "perturbation": {
+    "layer_input": {
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_fraction": 0.0
+    },
+    "layer_output": {
+      "max_abs": 0.0322265625,
+      "rms": 0.0065161739476025105,
+      "changed_fraction": 0.9833470582962036
+    },
+    "last_token_logits": {
+      "max_abs": 0.046875,
+      "rms": 0.01043966319411993,
+      "changed_fraction": 0.9483861923217773
+    }
+  },
+  "restored_sha256": "200c612190183bf82bfe4bf7604020a2407ee603b8643ffd1e79f607fa59643c",
+  "restoration": {
+    "layer_input": {
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_fraction": 0.0
+    },
+    "layer_output": {
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_fraction": 0.0
+    },
+    "last_token_logits": {
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "changed_fraction": 0.0
+    }
+  }
+}

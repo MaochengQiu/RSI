@@ -1,0 +1,26 @@
+# Local private material and internal handoffs
+/.private-local/
+/notes/
+/reports/
+/experiments/2026-11-23-实验交接.md
+/experiments/2026-11-25-阶段证据表.md
+
+# Local checks, outputs, caches, and downloaded weights
+/.tmp-*/
+/*.zip
+**/__pycache__/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.mpl-cache/
+*.py[cod]
+*.log
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
